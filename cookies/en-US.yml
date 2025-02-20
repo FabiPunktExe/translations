@@ -1,0 +1,19 @@
+# Lobby Phase
+cookies.game_starts_in: Cookies begins in ${cookies.countdown} seconds
+cookies.game_starts_now: Cookies begins now
+cookies.joined: ${1} joined the game
+
+# Ingame Phase
+cookies.ultimates_unlocked: The <light_puruple><bold>Ultimate Upgrades</bold></light_puruple> have been unlocked
+cookies.left: ${1} left the game
+cookies.rejoined: ${1} rejoined the game
+cookies.dropped_out: ${1} dropped out of the game
+cookies.cannot_place_in_spawn_area: You cannot place blocks in the spawn area
+cookies.machine_limit_reached: You have reached the limit of this machine
+cookies.cannot_place_machine_here: You cannot place machines here
+
+# Information
+cookies.map: Map
+cookies.builders: Builders
+cookies.players: Players
+cookies.stats_disabled: Stats are disabled in this game
