@@ -1,31 +1,31 @@
 # Lobby Phase
-cookies.game_starts_in: Cookies begins in ${cookies.countdown} seconds
-cookies.game_starts_now: Cookies begins now
-cookies.select_team: Select a team
-cookies.you_started: You started the game
+cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} sekunden
+cookies.game_starts_now: Cookies begint jetzt
+cookies.select_team: Wähle ein Team
+cookies.you_started: Du hast das Spiel gestartet
 
 # Ingame Phase
-cookies.ultimates_unlocked: The <light_purple><bold>Ultimate upgrades</bold></light_purple> have been unlocked
-cookies.team_dropped_out: ${0} dropped out of the game
-cookies.cannot_place_in_spawn_area: You cannot place blocks in the spawn area
-cookies.machine_limit_reached: You have reached the limit of this machine
-cookies.cannot_place_machine_here: You cannot place this machine here
-cookies.your_account: Your account
-cookies.team_account: Team account
-cookies.cookie_rain_accouncement: A cookie rain appears in the sky
+cookies.ultimates_unlocked: Die <light_purple><bold>Ultimate-Upgrades</bold></light_purple> wurden freigeschaltet
+cookies.team_dropped_out: ${0} hat das Spiel verlassen
+cookies.cannot_place_in_spawn_area: Du kannst keine Blöcke im Spawn Bereich platzieren
+cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
+cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
+cookies.your_account: Dein Konto
+cookies.team_account: Team Konto
+cookies.cookie_rain_accouncement: Ein Keks Regen erscheint am Himmel
 
 # Information
-cookies.map: Map
+cookies.map: Karte
 cookies.format: Format
-cookies.builders: Builders
+cookies.builders: Baumeister
 cookies.players: Players
-cookies.winner: Winner
-cookies.tower: Tower
-cookies.cookie_rain: Cookie Rain
-cookies.player_joined: ${0} joined the game
-cookies.player_left: ${0} left the game
-cookies.player_rejoined: ${0} rejoined the game
-cookies.stats_disabled: Stats are disabled in this game
+cookies.winner: Gewinner
+cookies.tower: Turm
+cookies.cookie_rain: Keks Regen
+cookies.player_joined: ${0} ist dem Spiel beigetreten
+cookies.player_left: ${0} hat das Spiel verlassen
+cookies.player_rejoined: ${0} ist wieder dem Spiel beigetreten
+cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
 
 # Shop
 cookies.shop.price: 'Price: <gold>${0} Cookies</gold>'
