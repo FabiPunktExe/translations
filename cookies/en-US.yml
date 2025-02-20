@@ -5,7 +5,7 @@ cookies.select_team: Select a team
 
 # Ingame Phase
 cookies.ultimates_unlocked: The <light_puruple><bold>Ultimate Upgrades</bold></light_puruple> have been unlocked
-cookies.team_dropped_out: ${1} dropped out of the game
+cookies.team_dropped_out: ${0} dropped out of the game
 cookies.cannot_place_in_spawn_area: You cannot place blocks in the spawn area
 cookies.machine_limit_reached: You have reached the limit of this machine
 cookies.cannot_place_machine_here: You cannot place this machine here
@@ -15,7 +15,7 @@ cookies.map: Map
 cookies.builders: Builders
 cookies.players: Players
 cookies.winner: Winner
-cookies.player_joined: ${1} joined the game
-cookies.player_left: ${1} left the game
-cookies.player_rejoined: ${1} rejoined the game
+cookies.player_joined: ${0} joined the game
+cookies.player_left: ${0} left the game
+cookies.player_rejoined: ${0} rejoined the game
 cookies.stats_disabled: Stats are disabled in this game
