@@ -1,3 +1,6 @@
+global:
+  name: Global
+
 translate:
   name: Translate
 
