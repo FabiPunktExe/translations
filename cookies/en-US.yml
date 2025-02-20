@@ -2,20 +2,107 @@
 cookies.game_starts_in: Cookies begins in ${cookies.countdown} seconds
 cookies.game_starts_now: Cookies begins now
 cookies.select_team: Select a team
+cookies.you_started: You started the game
 
 # Ingame Phase
-cookies.ultimates_unlocked: The <light_puruple><bold>Ultimate Upgrades</bold></light_puruple> have been unlocked
+cookies.ultimates_unlocked: The <light_puruple><bold>Ultimate upgrades</bold></light_puruple> have been unlocked
 cookies.team_dropped_out: ${0} dropped out of the game
 cookies.cannot_place_in_spawn_area: You cannot place blocks in the spawn area
 cookies.machine_limit_reached: You have reached the limit of this machine
 cookies.cannot_place_machine_here: You cannot place this machine here
+cookies.your_account: Your account
+cookies.team_account: Team account
+cookies.cookie_rain_accouncement: A cookie rain appears in the sky
 
 # Information
 cookies.map: Map
+cookies.format: Format
 cookies.builders: Builders
 cookies.players: Players
 cookies.winner: Winner
+cookies.tower: Tower
+cookies.cookie_rain: Cookie Rain
 cookies.player_joined: ${0} joined the game
 cookies.player_left: ${0} left the game
 cookies.player_rejoined: ${0} rejoined the game
 cookies.stats_disabled: Stats are disabled in this game
+
+# Shop
+cookies.shop.price: 'Price: <gold>${0} Cookies</gold>'
+cookies.shop.discounted_price: 'Price: <gold><strikethrough>${0} Cookies</strikethrough> ${1} Cookies</gold>'
+cookies.shop.itemshop: Item Shop
+cookies.shop.upgradeshop: Upgrade Shop
+cookies.shop.category.machines.name: Machines
+cookies.shop.category.machines.description: Machines that produce cookies
+cookies.shop.category.equipment.name: Equipment
+cookies.shop.category.equipment.description: '' # TODO: Add description
+cookies.shop.category.special.name: Special items
+cookies.shop.category.special.description: '' # TODO: Add description
+cookies.shop.category.general-upgrades.name: General upgrades
+cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
+cookies.shop.category.team-upgrades.name: Team upgrades
+cookies.shop.category.team-upgrades.description: Upgrades that benefit your team
+cookies.shop.category.tower-upgrades.name: Tower upgrades
+cookies.shop.category.tower-upgrades.description: |
+  Upgrades for building and protecting
+  your cookie tower
+cookies.shop.category.base-upgrades.name: Base upgrades
+cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
+cookies.shop.category.ultimates: Ultimate upgrades
+cookies.shop.category.ultimates.description: '' # TODO: Add description
+
+# Machines
+cookies.machine.plant.name: Plant
+cookies.machine.plant.description: '' # TODO: Add description
+cookies.machine.well.name: Well
+cookies.machine.well.description: '' # TODO: Add description
+cookies.machine.factory.name: Factory
+cookies.machine.factory.description: '' # TODO: Add description
+cookies.machine.tree.name: Tree
+cookies.machine.tree.description: '' # TODO: Add description
+cookies.machine.drill.name: Drill
+cookies.machine.drill.description: '' # TODO: Add description
+cookies.machine.shrine: Shrine
+cookies.machine.shrine.description: '' # TODO: Add description
+cookies.machine.wood_generator: Wood generator
+cookies.machine.wood_generator.description: '' # TODO: Add description
+
+# Items
+cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
+cookies.item.stone_sword.description: '' # TODO: Add description
+cookies.item.iron_sword.name: <lang:item.minecraft.iron_sword>
+cookies.item.iron_sword.description: '' # TODO: Add description
+cookies.item.bow.name: <lang:item.minecraft.bow>
+cookies.item.bow.description: '' # TODO: Add description
+cookies.item.arrow.name: <lang:item.minecraft.arrow>
+cookies.item.arrow.description: '' # TODO: Add description
+cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
+cookies.item.spectral_arrow.description: '' # TODO: Add description
+cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
+cookies.item.chainmail_chestplate.description: '' # TODO: Add description
+cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
+cookies.item.golden_apple.description: '' # TODO: Add description
+# TODO: Add more items
+
+# Upgrades
+cookies.upgrade.efficiency.level.1.name: Efficiency I
+cookies.upgrade.efficiency.level.1.description: Increases the your mining speed by 30%
+cookies.upgrade.efficiency.level.2.name: Efficiency II
+cookies.upgrade.efficiency.level.2.description: Increases the your mining speed by 69%
+cookies.upgrade.efficiency.level.3.name: Efficiency III
+cookies.upgrade.efficiency.level.3.description: Increases the your mining speed by 120%
+cookies.upgrade.movement_speed.level.1.name: Speed I
+cookies.upgrade.movement_speed.level.1.description: Increases your movement speed by 20%
+cookies.upgrade.movement_speed.level.2.name: Speed II
+cookies.upgrade.movement_speed.level.2.description: Increases your movement speed by 40%
+cookies.upgrade.armor.level.1.name: Armor
+cookies.upgrade.armor.level.1.description: You receive a full set of leather armor
+cookies.upgrade.discount.level.1.name: Discount I
+cookies.upgrade.discount.level.1.description: |
+  Reduces the price of all items at the
+  item shop by 30%
+cookies.upgrade.discount.level.2.name: Discount II
+cookies.upgrade.discount.level.2.description: |
+  Reduces the price of most upgrades at
+  the upgrade shop by 30%
+# TODO: Add more upgrades
