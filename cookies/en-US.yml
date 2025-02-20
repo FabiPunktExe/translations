@@ -5,7 +5,7 @@ cookies.select_team: Select a team
 cookies.you_started: You started the game
 
 # Ingame Phase
-cookies.ultimates_unlocked: The <light_puruple><bold>Ultimate upgrades</bold></light_puruple> have been unlocked
+cookies.ultimates_unlocked: The <light_purple><bold>Ultimate upgrades</bold></light_purple> have been unlocked
 cookies.team_dropped_out: ${0} dropped out of the game
 cookies.cannot_place_in_spawn_area: You cannot place blocks in the spawn area
 cookies.machine_limit_reached: You have reached the limit of this machine
