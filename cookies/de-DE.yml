@@ -1,18 +1,18 @@
 # Lobby Phase
-cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
-cookies.game_starts_now: Cookies begint jetzt
-cookies.select_team: Wähle ein Team
+cookies.game_starts_in: Cookies startet in ${cookies.countdown} Sekunden
+cookies.game_starts_now: Cookies startet jetzt
+cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
 
 # Ingame Phase
-cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen Upgrades</bold></light_purple> wurden freigeschaltet
+cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen upgrades</bold></light_purple> wurden freigeschaltet
 cookies.team_dropped_out: ${0} hat das Spiel verlassen
-cookies.cannot_place_in_spawn_area: Du kannst keine Blöcke im Spawn Bereich platzieren
+cookies.cannot_place_in_spawn_area: Du kannst keine im Spawn Bereich keine Blöcke platzieren
 cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
 cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
 cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
-cookies.cookie_rain_accouncement: Ein Keksregen erscheint am Himmel
+cookies.cookie_rain_accouncement: Ein Keksregen zieht am Himmel auf
 
 # Information
 cookies.map: Karte
