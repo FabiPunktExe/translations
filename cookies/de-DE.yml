@@ -1,0 +1,28 @@
+# Lobby Phase
+cookies.game_starts_in: Cookies startet in ${cookies.countdown} Sekunden
+cookies.game_starts_now: Cookies startet jetzt
+cookies.select_team: Wähle ein Team aus
+cookies.you_started: Du hast das Spiel gestartet
+
+# Ingame Phase
+cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen upgrades</bold></light_purple> wurden freigeschalten
+cookies.team_dropped_out: ${0} hat das Spiel verlassen
+cookies.cannot_place_in_spawn_area: Du kannst keine im Spawn Bereich keine Blöcke platzieren
+cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
+cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
+cookies.your_account: Dein Konto
+cookies.team_account: Team Konto
+cookies.cookie_rain_accouncement: Ein Keksregen zieht am Himmel auf
+
+# Information
+cookies.map: Karte
+cookies.format: Format
+cookies.builders: Baumeister
+cookies.players: Spieler
+cookies.winner: Gewinner
+cookies.tower: Turm
+cookies.cookie_rain: Keksregen
+cookies.player_joined: ${0} ist dem Spiel beigetreten
+cookies.player_left: ${0} hat das Spiel verlassen
+cookies.player_rejoined: ${0} ist wieder dem Spiel beigetreten
+cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
