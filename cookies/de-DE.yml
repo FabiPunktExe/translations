@@ -96,28 +96,32 @@ cookies.upgrade.building_speed.level.4.name: Geschwindigkeit IV
 cookies.upgrade.building.speed.level.4.description: Otto baut 40% schneller
 cookies.upgrade.resistance.level.1.name: Resistenz I
 cookies.upgrade.resistance.level.1.description: |
-Ottos Blöcke können nicht
-mehr so leicht zerstört werden
+  Ottos Blöcke können nicht
+  mehr so leicht zerstört werden
 cookies.upgrade.resistance.level.2.name: Resistenz II
-cookies.upgrade.resistance.level.2.description: Ottos Blöcke sind schwierig zu zerstören
+cookies.upgrade.resistance.level.2.description: Ottos Blöcke sind schwieriger zu zerstören
 cookies.upgrade.tower_teleport.level.1.name: Tower Teleport I
-cookies.upgrade.tower_teleport.level.1.description: schaltet den Tower Teleport frei, mit 30 Sekunden Cooldown
+cookies.upgrade.tower_teleport.level.1.description: |
+  Tower Teleport wird aktiviert
+  Cooldown: <yellow>30 Sekunden
 cookies.upgrade.tower_teleport.level.2.name: Tower Teleport II
-cookies.upgrade.tower_teleport.level.2.description: reduziert den Cooldown auf 15 Sekunden
+cookies.upgrade.tower_teleport.level.2.description: |
+  Cooldown: <yellow><strikethrough>30</strikethrough> 15 Sekunden
 cookies.upgrade.tower_teleport.level.3.name: Tower Teleport III
-cookies.upgrade.tower_teleport.level.3.description: reduziert den Cooldown auf 5 Sekunden
+cookies.upgrade.tower_teleport.level.3.description: |
+  Cooldown: <yellow><strikethrough>15</strikethrough> 5 Sekunden
 cookies.upgrade.alarm.level.1.name: Wächter I
 cookies.upgrade.alarm.level.1.description: |
-Wenn ein Gegner in der Nähe deines Turms ist, wird
-dein Team benachrichtigt 
+  Wenn ein Gegner in der Nähe deines Turms ist, wird
+  dein Team benachrichtigt 
 cookies.upgrade.alarm.level.2.name: Wächter II
 cookies.upgrade.alarm.level.2.description: |
-Wenn ein Gegner in der Nähe deines Turms ist, fängt
-dieser an zu leuchten
+  Wenn ein Gegner in der Nähe deines Turms ist, fängt
+  dieser an zu leuchten
 cookies.upgrade.spy.level.1.name: Spion
 cookies.upgrade.spy.level.1.description: |
-Dein Team kann die gegnerischen
-Türme immer im Blick behalten
+  Dein Team kann die gegnerischen  
+  Türme immer im Blick behalten
 
 #Base Upgrades
 cookies.upgrade.slowness.level.1.name: Langsamkeit(Gegner)
@@ -129,7 +133,9 @@ cookies.upgrade.regeneration.level.1.description: Erhalte Regeneration in deiner
 cookies.upgrade.strength.level.1.name: Stärke
 cookies.upgrade.strength.level.1.description: Erhalte Stärke in deiner Base
 cookies.upgrade.simple_deposit.level.1.name: Einfaches Einzahlen
-cookies.upgrade.simple_deposit.level.1.description:
+cookies.upgrade.simple_deposit.level.1.description: |
+  Mit einem Linksklick auf den
+  Bankier alle deine Cookies einzahlen
 
 #Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
