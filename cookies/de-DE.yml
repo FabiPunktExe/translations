@@ -1,12 +1,12 @@
 # Lobby Phase
-cookies.game_starts_in: Cookies startet in ${cookies.countdown} Sekunden
-cookies.game_starts_now: Cookies startet jetzt
+cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
+cookies.game_starts_now: Cookies beginnt  jetzt
 cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
 
 # Ingame Phase
 cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen upgrades</bold></light_purple> wurden freigeschalten
-cookies.team_dropped_out: ${0} hat das Spiel verlassen
+cookies.team_dropped_out: ${0} ist ausgeschieden
 cookies.cannot_place_in_spawn_area: Du kannst keine im Spawn Bereich keine Blöcke platzieren
 cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
 cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
@@ -22,7 +22,136 @@ cookies.players: Spieler
 cookies.winner: Gewinner
 cookies.tower: Turm
 cookies.cookie_rain: Keksregen
-cookies.player_joined: ${0} ist dem Spiel beigetreten
+cookies.player_joined: ${0} hat das Spiel betreten
 cookies.player_left: ${0} hat das Spiel verlassen
-cookies.player_rejoined: ${0} ist wieder dem Spiel beigetreten
+cookies.player_rejoined: ${0} hat das Spiel wieder betreten
 cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
+
+# Maschinen
+cookies.machine.plant.name: Pflanze
+cookies.machine.well.name: Brunnen
+cookies.machine.factory.name: Fabrik
+cookies.machine.tree.name: Baum
+cookies.machine.drill.name: Bohrer
+cookies.machine.shrine: Schrein
+cookies.machine.wood_generator: Holzgenerator
+
+# Team Upgrades
+cookies.upgrade.efficiency.level.1.name: Effizienz I
+cookies.upgrade.efficiency.level.1.description: Erhalte <lang:enchantment.minecraft.efficiency> I auf deiner <lang:item.minecraft.iron_pickaxe>
+cookies.upgrade.efficiency.level.2.name: Effizienz II
+cookies.upgrade.efficiency.level.2.description: Erhalte <lang:enchantment.minecraft.efficiency> II auf deiner <lang:item.minecraft.iron_pickaxe>
+cookies.upgrade.efficiency.level.3.name: Effizienz III
+cookies.upgrade.efficiency.level.3.description: Erhalte <lang:enchantment.minecraft.efficiency> III auf deiner <lang:item.minecraft.iron_pickaxe>
+cookies.upgrade.movement_speed.level.1.name: Schnelligkeit I
+cookies.upgrade.movement_speed.level.1.description: Erhalte Schnelligkeit I
+cookies.upgrade.movement_speed.level.2.name: Schnelligkeit II
+cookies.upgrade.movement_speed.level.2.description: Erhalte Schnelligkeit II
+cookies.upgrade.armor.level.1.name: Rüstung
+cookies.upgrade.armor.level.1.description: Erhalte eine vollständige Lederrüstung
+cookies.upgrade.discount.level.1.name: Rabatt I
+cookies.upgrade.discount.level.1.description: Reduziert den Preis von allen Items um 30%
+cookies.upgrade.discount.level.2.name: Rabatt II
+cookies.upgrade.discount.level.2.description: Reduziert den Preis von allen Upgrades um 30%
+cookies.upgrade.drop_bonus.level.1.name: Drop Bonus I
+cookies.upgrade.drop_bonus.level.1.description: |
+  <strikethrough>10%</strikethrough> 20% Chance auf Keksblöcke aus Goldblöcken
+  <strikethrough>20%</strikethrough> 40% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.drop_bonus.level.2.name: Drop Bonus II
+cookies.upgrade.drop_bonus.level.2.description: |
+  <strikethrough>20%</strikethrough> 30% Chance auf Keksblöcke aus Goldblöcken
+  <strikethrough>40%</strikethrough> 60% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.drop_bonus.level.3.name: Drop Bonus III
+cookies.upgrade.drop_bonus.level.3.description: |
+  <strikethrough>30%</strikethrough> 40% Chance auf Keksblöcke aus Goldblöcken
+  <strikethrough>60%</strikethrough> 80% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
+cookies.upgrade.quick_spawn.level.1.description: Deine Maschinen produzieren 20% schneller
+cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
+cookies.upgrade.quick_spawn.level.2.description: Deine Maschinen produzieren 30% schneller
+cookies.upgrade.security.level.1.name: Sicherheit I
+cookies.upgrade.security.level.1.description: Gegner erhalten <lang:effect.minecraft.blindness> in deinen Maschinen
+cookies.upgrade.security.level.2.name: Sicherheit II
+cookies.upgrade.security.level.2.description: Gegner erhalten <lang:effect.minecraft.poison> in deinen Maschinen
+
+# Turm Upgrades
+cookies.upgrade.frugality.level.1.name: Sparsamkeit I
+cookies.upgrade.frugality.level.1.description: Otto spart zu 10% einen Block ein.
+cookies.upgrade.frugality.level.2.name: Sparsamkeit II
+cookies.upgrade.frugality.level.2.description: Otto spart zu 20% einen Block ein.
+cookies.upgrade.frugality.level.3.name: Sparsamkeit III
+cookies.upgrade.frugality.level.3.description: Otto spart zu 30% einen Block ein.
+cookies.upgrade.building_speed.level.1.name: Geschwindigkeit I
+cookies.upgrade.building_speed.level.1.description: Otto baut 10% schneller.
+cookies.upgrade.building_speed.level.2.name: Geschwindigkeit II
+cookies.upgrade.building_speed.level.2.description: Otto baut 20% schneller.
+cookies.upgrade.building_speed.level.3.name: Geschwindigkeit III
+cookies.upgrade.building_speed.level.3.description: Otto baut 30% schneller.
+cookies.upgrade.building_speed.level.4.name: Geschwindigkeit IV
+cookies.upgrade.building.speed.level.4.description: Otto baut 40% schneller.
+cookies.upgrade.resistance.level.1.name: Resistenz I
+cookies.upgrade.resistance.level.1.description: Ottos Blöcke werden härter.
+cookies.upgrade.resistance.level.2.name: Resistenz II
+cookies.upgrade.resistance.level.2.description: Ottos Blöcke werden viel härter.
+cookies.upgrade.tower_teleport.level.1.name: Tower Teleport I
+cookies.upgrade.tower_teleport.level.1.description: |
+  Tower Teleport wird aktiviert
+  Cooldown: <yellow>30 Sekunden
+cookies.upgrade.tower_teleport.level.2.name: Tower Teleport II
+cookies.upgrade.tower_teleport.level.2.description: |
+  Cooldown: <yellow><strikethrough>30</strikethrough> 15 Sekunden
+cookies.upgrade.tower_teleport.level.3.name: Tower Teleport III
+cookies.upgrade.tower_teleport.level.3.description: |
+  Cooldown: <yellow><strikethrough>15</strikethrough> 5 Sekunden
+cookies.upgrade.alarm.level.1.name: Wächter I
+cookies.upgrade.alarm.level.1.description: |
+  Wenn ein Gegner in der Nähe deines Turms ist, wird
+  dein Team benachrichtigt.
+cookies.upgrade.alarm.level.2.name: Wächter II
+cookies.upgrade.alarm.level.2.description: |
+  Wenn ein Gegner in der Nähe deines Turms ist, fängt
+  dieser an zu leuchten.
+cookies.upgrade.spy.level.1.name: Spion
+cookies.upgrade.spy.level.1.description: |
+  Dein Team kann die gegnerischen Türme immer
+  im Blick behalten.
+
+# Base Upgrades
+cookies.upgrade.slowness.level.1.name: Langsamkeit (Gegner)
+cookies.upgrade.slowness.level.1.description: Gegner erhalten <lang:effect.minecraft.slowness> I in deiner Base
+cookies.upgrade.weakness.level.1.name: Schwäche (Gegner)
+cookies.upgrade.weakness.level.1.description: Gegner erhalten <lang:effect.minecraft.weakness> I in deiner Base
+cookies.upgrade.regeneration.level.1.name: Regeneration
+cookies.upgrade.regeneration.level.1.description: Erhalte <lang:effect.minecraft.regeneration> I in deiner Base
+cookies.upgrade.strength.level.1.name: Stärke
+cookies.upgrade.strength.level.1.description: Erhalte <lang:effect.minecraft.strength> I in deiner Base
+cookies.upgrade.simple_deposit.level.1.name: Einfaches Einzahlen
+cookies.upgrade.simple_deposit.level.1.description: |
+  <yellow><lang:key.mouse.left> auf Bänker:</yellow> Alle Kekse einzahlen
+  <yellow><lang:key.mouse.left> + <lang:key.sneak> auf Bänker:</yellow> Alle Kekse + Keksblöcke einzahlen
+
+# Ultimate Upgrades
+cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
+cookies.ultimate.building_speed.description: Otto baut 50% schneller.
+cookies.ultimate.movement_speed.name: Ultimative Schnelligkeit
+cookies.ultimate.movement_speed.description: Erhalte <lang:effect.minecraft.speed> III.
+cookies.ultimate.quick_spawn.name: Ultimatives Quick Spawn
+cookies.ultimate.quick_spawn.description: Die Maschinen produzieren 35% schneller.
+cookies.ultimate.resistance.name: Ultimative Resistenz
+cookies.ultimate.resistance.description: Ottos Blöcke werden steinhart.
+
+# Spezielle Items
+cookies.item.tower.name: Turm
+cookies.item.invisibility.name: <lang:item.minecraft.potion.effect.invisibility>
+cookies.item.jump_boost.name: <lang:item.minecraft.potion.effect.leaping>
+cookies.item.sandstone.name: <lang:block.minecraft.sandstone>
+cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
+
+# Tools
+cookies.item.magnet.name: Magnet
+cookies.item.tnt.name: <lang:block.minecraft.tnt>
+cookies.item.mine.name: Mine
+cookies.item.cookie_breaker.name: Cookie Breaker
+cookies.item.golden_axe.name: <lang:block.minecraft.golden_axe>
+cookies.item.teleporter.name: Teleporter
+cookies.item.trap.name: Falle
