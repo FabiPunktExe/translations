@@ -65,19 +65,19 @@ cookies.upgrade.discount.level.2.description: |
   Reduziert den Preis von allen Upgrades
   um 30%
 cookies.upgrade.drop_bonus.level.1.name: Drop Bonus I
-cookies.upgrade.drop_bonus.level.1.description: Erhalte 10% mehr Drops für Cookies-Blöcke
+cookies.upgrade.drop_bonus.level.1.description: Erhalte 10% mehr Drops aus Cookies-Blöcken
 cookies.upgrade.drop_bonus.level.2.name: Drop Bonus II
-cookies.upgrade.drop_bonus.level.2.description: Erhalte 20% mehr Drops für Cookies-Blöcke
+cookies.upgrade.drop_bonus.level.2.description: Erhalte 20% mehr Drops aus Cookies-Blöcken
 cookies.upgrade.drop_bonus.level.3.name: Drop Bonus III
-cookies.upgrade.drop_bonus.level.3.description: Erhalte 30% mehr Drops für Cookies-Blöcke
+cookies.upgrade.drop_bonus.level.3.description: Erhalte 30% mehr Drops aus Cookies-Blöcken
 cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
 cookies.upgrade.quick_spawn.level.1.description: Die Maschinen produzieren 20% schneller
 cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
 cookies.upgrade.quick_spawn.level.2.description: Die Maschinen produzieren 30% schneller
 cookies.upgrade.security.level.1.name: Sicherheit I
-cookies.upgrade.security.level.1.description: Die Gegner erhalten Blindheit bei Maschinen
+cookies.upgrade.security.level.1.description: Gegner erhalten Blindheit in Maschinen
 cookies.upgrade.security.level.2.name: Sicherheit II
-cookies.upgrade.security.level.2.description: Gegner erhalten Vergiftung bei Maschinen
+cookies.upgrade.security.level.2.description: Gegner erhalten Vergiftung in Maschinen
 
 #Turm Upgrades
 cookies.upgrade.frugality.level.1.name: Sparsamkeit I
@@ -87,13 +87,13 @@ cookies.upgrade.frugality.level.2.description: Otto spart zu 20% einen Block ein
 cookies.upgrade.frugality.level.3.name: Sparsamkeit III
 cookies.upgrade.frugality.level.3.description: Otto spart zu 30% einen Block ein
 cookies.upgrade.building_speed.level.1.name: Geschwindigkeit I
-cookies.upgrade.building_speed.level.1.description: Otto um 10% schneller
+cookies.upgrade.building_speed.level.1.description: Otto baut 10% schneller
 cookies.upgrade.building_speed.level.2.name: Geschwindigkeit II
-cookies.upgrade.building_speed.level.2.description: Otto um 20% schneller
+cookies.upgrade.building_speed.level.2.description: Otto baut 20% schneller
 cookies.upgrade.building_speed.level.3.name: Geschwindigkeit III
-cookies.upgrade.building_speed.level.3.description: Otto um 30% schneller
+cookies.upgrade.building_speed.level.3.description: Otto baut 30% schneller
 cookies.upgrade.building_speed.level.4.name: Geschwindigkeit IV
-cookies.upgrade.building.speed.level.4.description: Otto um 40% schneller
+cookies.upgrade.building.speed.level.4.description: Otto baut 40% schneller
 cookies.upgrade.resistance.level.1.name: Resistenz I
 cookies.upgrade.resistance.level.1.description: |
 Ottos Blöcke können nicht
