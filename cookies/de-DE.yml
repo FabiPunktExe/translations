@@ -27,6 +27,30 @@ cookies.player_left: ${0} hat das Spiel verlassen
 cookies.player_rejoined: ${0} hat das Spiel erneut betreten
 cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
 
+# Shop
+cookies.shop.price: Preis
+cookies.shop.discounted_price: Reduzierter Preis
+cookies.shop.upgradeshop: Upgradeshop
+cookies.shop.itemshop: Itemshop
+cookies.shop.category.machines.name: Maschinen
+cookies.shop.category.machines.description: Maschinen produzieren Cookies
+cookies.shop.category.equipment.name: Ausrüstung
+cookies.shop.category.equipment.description: '' # TODO: Add description
+cookies.shop.category.special.name: Special items
+cookies.shop.category.special.description: '' # TODO: Add description
+cookies.shop.category.general-upgrades.name: General upgrades
+cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
+cookies.shop.category.team-upgrades.name: Team upgrades
+cookies.shop.category.team-upgrades.description: Upgrades that benefit your team
+cookies.shop.category.tower-upgrades.name: Tower upgrades
+cookies.shop.category.tower-upgrades.description: |
+  Upgrades for building and protecting
+  your cookie tower
+cookies.shop.category.base-upgrades.name: Base upgrades
+cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
+cookies.shop.category.ultimates: Ultimate upgrades
+cookies.shop.category.ultimates.description: '' # TODO: Add description
+
 # Maschinen
 cookies.machine.plant.name: Pflanze
 cookies.machine.well.name: Brunnen
@@ -37,10 +61,6 @@ cookies.machine.shrine.name: Schrein
 cookies.machine.wood_generator.name: Holzgenerator
 
 # Team Upgrades
-cookies.shop.price: Preis
-cookies.shop.discounted_price: Reduzierter Preis
-cookies.shop.upgradeshop: Upgrades
-cookies.shop.itemshop: Ausrüstung
 cookies.upgrade.efficiency.level.1.name: Effizienz I
 cookies.upgrade.efficiency.level.1.description: Erhalte <lang:enchantment.minecraft.efficiency> I auf deiner <lang:item.minecraft.iron_pickaxe>
 cookies.upgrade.efficiency.level.2.name: Effizienz II
