@@ -1,31 +1,53 @@
 # Lobby Phase
 cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
-cookies.game_starts_now: Cookies beginnt  jetzt
+cookies.game_starts_now: Cookies beginnt jetzt!
 cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
 
 # Ingame Phase
-cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen upgrades</bold></light_purple> wurden freigeschalten
+cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen Upgrades</bold></light_purple> wurden freigeschaltet
 cookies.team_dropped_out: ${0} ist ausgeschieden
-cookies.cannot_place_in_spawn_area: Du kannst keine im Spawn Bereich keine Blöcke platzieren
+cookies.cannot_place_in_spawn_area: Du kannst im Spawnbereich keine Blöcke platzieren
 cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
 cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
 cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
-cookies.cookie_rain_accouncement: Ein Keksregen zieht am Himmel auf
+cookies.cookie_rain_accouncement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
 
 # Information
-cookies.map: Karte
+cookies.map: Spielkarte
 cookies.format: Format
-cookies.builders: Baumeister
+cookies.builders: Erbauer
 cookies.players: Spieler
 cookies.winner: Gewinner
 cookies.tower: Turm
 cookies.cookie_rain: Keksregen
 cookies.player_joined: ${0} hat das Spiel betreten
 cookies.player_left: ${0} hat das Spiel verlassen
-cookies.player_rejoined: ${0} hat das Spiel wieder betreten
+cookies.player_rejoined: ${0} hat das Spiel erneut betreten
 cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
+
+# Shop
+cookies.shop.price: 'Preis: <gold>${0} Cookies</gold>'
+cookies.shop.discounted_price: 'Preis: <gold><strikethrough>${0} Cookies</strikethrough> ${1} Cookies</gold>'
+cookies.shop.upgradeshop: Upgrade Shop
+cookies.shop.itemshop: Item Shop
+cookies.shop.category.machines.name: Maschinen
+cookies.shop.category.machines.description: Maschinen produzieren Cookies
+cookies.shop.category.equipment.name: Ausrüstung
+cookies.shop.category.equipment.description: Ausrüstung für den Kampf
+cookies.shop.category.special.name: Spezielle Items
+cookies.shop.category.special.description: Spezielle Items für Kampf und Spiel
+cookies.shop.category.general-upgrades.name: Generelle Upgrades
+cookies.shop.category.general-upgrades.description: Upgrades die deinem Team helfen
+cookies.shop.category.team-upgrades.name: Team-Upgrades
+cookies.shop.category.team-upgrades.description: Upgrades die deinem Team helfen
+cookies.shop.category.tower-upgrades.name: Tower-Upgrades
+cookies.shop.category.tower-upgrades.description: Upgrades um deinen Turm zu bauen und zu schützen
+cookies.shop.category.base-upgrades.name: Basis-Upgrades
+cookies.shop.category.base-upgrades.description: Upgrades die deinem Team in deiner Basis helfen
+cookies.shop.category.ultimates: Ultimative Upgrades
+cookies.shop.category.ultimates.description: Extrem starke und exklusive Upgrades
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
@@ -33,8 +55,8 @@ cookies.machine.well.name: Brunnen
 cookies.machine.factory.name: Fabrik
 cookies.machine.tree.name: Baum
 cookies.machine.drill.name: Bohrer
-cookies.machine.shrine: Schrein
-cookies.machine.wood_generator: Holzgenerator
+cookies.machine.shrine.name: Schrein
+cookies.machine.wood_generator.name: Holzgenerator
 
 # Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Effizienz I
@@ -73,7 +95,6 @@ cookies.upgrade.security.level.1.name: Sicherheit I
 cookies.upgrade.security.level.1.description: Gegner erhalten <lang:effect.minecraft.blindness> in deinen Maschinen
 cookies.upgrade.security.level.2.name: Sicherheit II
 cookies.upgrade.security.level.2.description: Gegner erhalten <lang:effect.minecraft.poison> in deinen Maschinen
-
 # Turm Upgrades
 cookies.upgrade.frugality.level.1.name: Sparsamkeit I
 cookies.upgrade.frugality.level.1.description: Otto spart zu 10% einen Block ein.
@@ -96,13 +117,13 @@ cookies.upgrade.resistance.level.2.description: Ottos Blöcke werden viel härte
 cookies.upgrade.tower_teleport.level.1.name: Tower Teleport I
 cookies.upgrade.tower_teleport.level.1.description: |
   Tower Teleport wird aktiviert
-  Cooldown: <yellow>30 Sekunden
+  Cooldown: 30 Sekunden
 cookies.upgrade.tower_teleport.level.2.name: Tower Teleport II
 cookies.upgrade.tower_teleport.level.2.description: |
-  Cooldown: <yellow><strikethrough>30</strikethrough> 15 Sekunden
+  Cooldown: <strikethrough>30</strikethrough> 15 Sekunden
 cookies.upgrade.tower_teleport.level.3.name: Tower Teleport III
 cookies.upgrade.tower_teleport.level.3.description: |
-  Cooldown: <yellow><strikethrough>15</strikethrough> 5 Sekunden
+  Cooldown: <strikethrough>15</strikethrough> 5 Sekunden
 cookies.upgrade.alarm.level.1.name: Wächter I
 cookies.upgrade.alarm.level.1.description: |
   Wenn ein Gegner in der Nähe deines Turms ist, wird
@@ -115,7 +136,6 @@ cookies.upgrade.spy.level.1.name: Spion
 cookies.upgrade.spy.level.1.description: |
   Dein Team kann die gegnerischen Türme immer
   im Blick behalten.
-
 # Base Upgrades
 cookies.upgrade.slowness.level.1.name: Langsamkeit (Gegner)
 cookies.upgrade.slowness.level.1.description: Gegner erhalten <lang:effect.minecraft.slowness> I in deiner Base
@@ -129,7 +149,6 @@ cookies.upgrade.simple_deposit.level.1.name: Einfaches Einzahlen
 cookies.upgrade.simple_deposit.level.1.description: |
   <yellow><lang:key.mouse.left> auf Bänker:</yellow> Alle Kekse einzahlen
   <yellow><lang:key.mouse.left> + <lang:key.sneak> auf Bänker:</yellow> Alle Kekse + Keksblöcke einzahlen
-
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
 cookies.ultimate.building_speed.description: Otto baut 50% schneller.
@@ -141,17 +160,16 @@ cookies.ultimate.resistance.name: Ultimative Resistenz
 cookies.ultimate.resistance.description: Ottos Blöcke werden steinhart.
 
 # Spezielle Items
-cookies.item.tower.name: Turm
+cookies.item.tower.name: Pop-Up-Turm
 cookies.item.invisibility.name: <lang:item.minecraft.potion.effect.invisibility>
 cookies.item.jump_boost.name: <lang:item.minecraft.potion.effect.leaping>
 cookies.item.sandstone.name: <lang:block.minecraft.sandstone>
 cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
-
 # Tools
 cookies.item.magnet.name: Magnet
 cookies.item.tnt.name: <lang:block.minecraft.tnt>
 cookies.item.mine.name: Mine
 cookies.item.cookie_breaker.name: Cookie Breaker
-cookies.item.golden_axe.name: <lang:block.minecraft.golden_axe>
+cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
