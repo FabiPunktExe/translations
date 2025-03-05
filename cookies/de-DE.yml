@@ -37,6 +37,10 @@ cookies.machine.shrine.name: Schrein
 cookies.machine.wood_generator.name: Holzgenerator
 
 # Team Upgrades
+cookies.shop.price: Preis
+cookies.shop.discounted_price: Reduzierter Preis
+cookies.shop.upgradeshop: Upgrades
+cookies.shop.itemshop: Ausrüstung
 cookies.upgrade.efficiency.level.1.name: Effizienz I
 cookies.upgrade.efficiency.level.1.description: Erhalte <lang:enchantment.minecraft.efficiency> I auf deiner <lang:item.minecraft.iron_pickaxe>
 cookies.upgrade.efficiency.level.2.name: Effizienz II
@@ -151,9 +155,3 @@ cookies.item.cookie_breaker.name: Cookie Breaker
 cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
-
-# Shops
-cookies.shop.price: Preis
-cookies.shop.discounted_price: Reduzierter Preis
-cookies.shop.upgradeshop: Upgrades
-cookies.shop.itemshop: Ausrüstung
