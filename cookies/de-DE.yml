@@ -35,21 +35,21 @@ cookies.shop.itemshop: Itemshop
 cookies.shop.category.machines.name: Maschinen
 cookies.shop.category.machines.description: Maschinen produzieren Cookies
 cookies.shop.category.equipment.name: Ausrüstung
-cookies.shop.category.equipment.description: '' # TODO: Add description
-cookies.shop.category.special.name: Special items
-cookies.shop.category.special.description: '' # TODO: Add description
-cookies.shop.category.general-upgrades.name: General upgrades
+cookies.shop.category.equipment.description: Ausrüstung für den Kampf
+cookies.shop.category.special.name: Spezielle Items
+cookies.shop.category.special.description: Spezielle Items für Kampf und Spiel
+cookies.shop.category.general-upgrades.name: Generelle Upgrades
 cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
-cookies.shop.category.team-upgrades.name: Team upgrades
-cookies.shop.category.team-upgrades.description: Upgrades that benefit your team
-cookies.shop.category.tower-upgrades.name: Tower upgrades
+cookies.shop.category.team-upgrades.name: Team-Upgrades
+cookies.shop.category.team-upgrades.description: Upgrades die deinem Team helfen
+cookies.shop.category.tower-upgrades.name: Tower-Upgrades
 cookies.shop.category.tower-upgrades.description: |
   Upgrades for building and protecting
   your cookie tower
-cookies.shop.category.base-upgrades.name: Base upgrades
-cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
-cookies.shop.category.ultimates: Ultimate upgrades
-cookies.shop.category.ultimates.description: '' # TODO: Add description
+cookies.shop.category.base-upgrades.name: Basis-Upgrades
+cookies.shop.category.base-upgrades.description: Upgrades die deinem Team in deiner Basis helfen
+cookies.shop.category.ultimates: Ultimative Upgrades
+cookies.shop.category.ultimates.description: Extrem starke und exklusive Upgrades
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
