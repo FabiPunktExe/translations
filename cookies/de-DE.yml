@@ -28,10 +28,10 @@ cookies.player_rejoined: ${0} hat das Spiel erneut betreten
 cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
 
 # Shop
-cookies.shop.price: Preis
-cookies.shop.discounted_price: Reduzierter Preis
-cookies.shop.upgradeshop: Upgradeshop
-cookies.shop.itemshop: Itemshop
+cookies.shop.price: 'Preis: <gold>${0} Cookies</gold>'
+cookies.shop.discounted_price: 'Preis: <gold><strikethrough>${0} Cookies</strikethrough> ${1} Cookies</gold>'
+cookies.shop.upgradeshop: Upgrade Shop
+cookies.shop.itemshop: Item Shop
 cookies.shop.category.machines.name: Maschinen
 cookies.shop.category.machines.description: Maschinen produzieren Cookies
 cookies.shop.category.equipment.name: Ausrüstung
