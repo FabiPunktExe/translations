@@ -14,6 +14,14 @@ cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
 
+# End phase
+cookies.winner.nobody: <red>Nobody
+cookies.won.chat: ${cookies.winner} <green>won the game
+cookies.won.title: ${cookies.winner}
+cookies.won.subtitle: <green>won the game
+cookies.server_closes_in: This server closes in <yellow>${0}</yellow> seconds
+cookies.server_closes_now: This server closes <yellow>now</yellow>
+
 # Information
 cookies.map: Map
 cookies.format: Format
