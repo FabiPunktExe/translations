@@ -14,6 +14,14 @@ cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
 
+# End phase
+cookies.winner.nobody: <red>Nobody
+cookies.won.chat: ${cookies.winner} <green>won the game
+cookies.won.title: ${cookies.winner}
+cookies.won.subtitle: <green>won the game
+cookies.server_closes_in: This server closes in <yellow>${0}</yellow> seconds
+cookies.server_closes_now: This server closes <yellow>now</yellow>
+
 # Information
 cookies.map: Map
 cookies.format: Format
@@ -26,6 +34,22 @@ cookies.player_joined: ${0} joined the game
 cookies.player_left: ${0} left the game
 cookies.player_rejoined: ${0} rejoined the game
 cookies.stats_disabled: Stats are disabled in this game
+
+# Teams
+cookies.team.team_red.name: Red
+cookies.team.team_red.display_name: <red>Red team</red>
+cookies.team.team_blue.name: Blue
+cookies.team.team_blue.display_name: <blue>Blue team</blue>
+cookies.team.team_yellow.name: Yellow
+cookies.team.team_yellow.display_name: <yellow>Yellow team</yellow>
+cookies.team.team_green.name: Green
+cookies.team.team_green.display_name: <green>Green team</green>
+cookies.team.team_orange.name: Orange
+cookies.team.team_orange.display_name: <gold>Orange team</gold>
+cookies.team.team_dark_blue.name: Dark Blue
+cookies.team.team_dark_blue.display_name: <dark_blue>Dark blue team</dark_blue>
+cookies.team.team_dark_green.name: Green
+cookies.team.team_dark_green.display_name: <dark_green>Dark green team</dark_green>
 
 # Shop
 cookies.shop.price: 'Price: <gold>${0} Cookies</gold>'
