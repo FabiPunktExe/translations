@@ -77,35 +77,21 @@ cookies.shop.category.ultimates.description: '' # TODO: Add description
 
 # Machines
 cookies.machine.plant.name: Plant
-cookies.machine.plant.description: '' # TODO: Add description
 cookies.machine.well.name: Well
-cookies.machine.well.description: '' # TODO: Add description
 cookies.machine.factory.name: Factory
-cookies.machine.factory.description: '' # TODO: Add description
 cookies.machine.tree.name: Tree
-cookies.machine.tree.description: '' # TODO: Add description
 cookies.machine.drill.name: Drill
-cookies.machine.drill.description: '' # TODO: Add description
 cookies.machine.shrine: Shrine
-cookies.machine.shrine.description: '' # TODO: Add description
 cookies.machine.wood_generator: Wood generator
-cookies.machine.wood_generator.description: '' # TODO: Add description
 
 # Items
 cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
-cookies.item.stone_sword.description: '' # TODO: Add description
 cookies.item.iron_sword.name: <lang:item.minecraft.iron_sword>
-cookies.item.iron_sword.description: '' # TODO: Add description
 cookies.item.bow.name: <lang:item.minecraft.bow>
-cookies.item.bow.description: '' # TODO: Add description
 cookies.item.arrow.name: <lang:item.minecraft.arrow>
-cookies.item.arrow.description: '' # TODO: Add description
 cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
-cookies.item.spectral_arrow.description: '' # TODO: Add description
 cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
-cookies.item.chainmail_chestplate.description: '' # TODO: Add description
 cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
-cookies.item.golden_apple.description: '' # TODO: Add description
 # TODO: Add more items
 
 # Upgrades
