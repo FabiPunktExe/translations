@@ -115,4 +115,14 @@ cookies.upgrade.discount.level.2.name: Discount II
 cookies.upgrade.discount.level.2.description: |
   Reduces the price of most upgrades at
   the upgrade shop by 30%
+cookies.upgrade.armor.level.1.name: Armor
+cookies.upgrade.armor.level.1.description: You receive a whole leather armor
+cookies.upgrade.quick_spawn.level.1.name: Quick spawn I
+cookies.upgrade.quick_spawn.level.1.description: Your machines produce <yellow>20%</yellow> faster
+cookies.upgrade.quick_spawn.level.2.name: Quick spawn II
+cookies.upgrade.quick_spawn.level.2.description: Your machines produce <yellow>30%</yellow> faster
+cookies.upgrade.security.level.1.name: Aggressive defense I
+cookies.upgrade.security.level.1.description: Enemies in your machines get blinded
+cookies.upgrade.security.level.2.name: Aggressive defense II
+cookies.upgrade.security.level.2.description: Enemies in your machines get poisoned
 # TODO: Add more upgrades
