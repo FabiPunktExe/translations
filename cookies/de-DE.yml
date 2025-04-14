@@ -3,6 +3,7 @@ cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
 cookies.game_starts_now: Cookies beginnt jetzt!
 cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
+cookies.too_less_players_for_start: Es befinden sich nicht genügend Spieler in der Runde, für einen Start
 
 # Ingame Phase
 cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen Upgrades</bold></light_purple> wurden freigeschaltet
@@ -12,8 +13,9 @@ cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
 cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
 cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
-cookies.cookie_rain_accouncement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
-
+cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
+cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet
+ 
 # Information
 cookies.map: Spielkarte
 cookies.format: Format
@@ -48,6 +50,8 @@ cookies.shop.category.base-upgrades.name: Basis-Upgrades
 cookies.shop.category.base-upgrades.description: Upgrades die deinem Team in deiner Basis helfen
 cookies.shop.category.ultimates: Ultimative Upgrades
 cookies.shop.category.ultimates.description: Extrem starke und exklusive Upgrades
+cookies.shop.category.tools.name: Werkzeuge
+cookies.shop.category.tools.description: Werkzeuge, welche dir in besonderen Situationen weiterhelfen
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
@@ -95,6 +99,7 @@ cookies.upgrade.security.level.1.name: Sicherheit I
 cookies.upgrade.security.level.1.description: Gegner erhalten <lang:effect.minecraft.blindness> in deinen Maschinen
 cookies.upgrade.security.level.2.name: Sicherheit II
 cookies.upgrade.security.level.2.description: Gegner erhalten <lang:effect.minecraft.poison> in deinen Maschinen
+
 # Turm Upgrades
 cookies.upgrade.frugality.level.1.name: Sparsamkeit I
 cookies.upgrade.frugality.level.1.description: Otto spart zu 10% einen Block ein.
@@ -136,6 +141,7 @@ cookies.upgrade.spy.level.1.name: Spion
 cookies.upgrade.spy.level.1.description: |
   Dein Team kann die gegnerischen Türme immer
   im Blick behalten.
+  
 # Base Upgrades
 cookies.upgrade.slowness.level.1.name: Langsamkeit (Gegner)
 cookies.upgrade.slowness.level.1.description: Gegner erhalten <lang:effect.minecraft.slowness> I in deiner Base
@@ -149,6 +155,7 @@ cookies.upgrade.simple_deposit.level.1.name: Einfaches Einzahlen
 cookies.upgrade.simple_deposit.level.1.description: |
   <yellow><lang:key.mouse.left> auf Bänker:</yellow> Alle Kekse einzahlen
   <yellow><lang:key.mouse.left> + <lang:key.sneak> auf Bänker:</yellow> Alle Kekse + Keksblöcke einzahlen
+  
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
 cookies.ultimate.building_speed.description: Otto baut 50% schneller.
@@ -165,6 +172,7 @@ cookies.item.invisibility.name: <lang:item.minecraft.potion.effect.invisibility>
 cookies.item.jump_boost.name: <lang:item.minecraft.potion.effect.leaping>
 cookies.item.sandstone.name: <lang:block.minecraft.sandstone>
 cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
+
 # Tools
 cookies.item.magnet.name: Magnet
 cookies.item.tnt.name: <lang:block.minecraft.tnt>
@@ -173,3 +181,10 @@ cookies.item.cookie_breaker.name: Cookie Breaker
 cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
+cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
+cookies.item.iron_sword.name: <lang:item.minecraft.iron>
+cookies.item.bow.name: <lang:item.minecraft.bow>
+cookies.item.arrow.name: <lang:item.minecraft.arrow>
+cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
+cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
+cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
