@@ -14,7 +14,7 @@ cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platziere
 cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
 cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
-cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet
+cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet #TODO May need to be changed
 
 # End phase
 cookies.winner.nobody: <red>Niemand
@@ -223,7 +223,7 @@ cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
 
-#ToDos
+#ToDos #TODO May need to be changed
 cookies.todos: Aufgaben
 cookies.todo.in_the_middle: In die Mitte
 cookies.todo.marathon_runner: Marathonläufer
