@@ -3,6 +3,7 @@ cookies.game_starts_in: Cookies begins in ${cookies.countdown} seconds
 cookies.game_starts_now: Cookies begins now
 cookies.select_team: Select a team
 cookies.you_started: You started the game
+cookies.too_less_players_for_start: Not enough players in the round to start
 
 # Ingame Phase
 cookies.ultimates_unlocked: The <light_purple><bold>Ultimate upgrades</bold></light_purple> have been unlocked
@@ -13,6 +14,7 @@ cookies.cannot_place_machine_here: You cannot place this machine here
 cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
+cookies.upgrade.bought: Your team has unlocked the ${0} upgrade
 
 # End phase
 cookies.winner.nobody: <red>Nobody
@@ -59,9 +61,9 @@ cookies.shop.upgradeshop: Upgrade Shop
 cookies.shop.category.machines.name: Machines
 cookies.shop.category.machines.description: Machines that produce cookies
 cookies.shop.category.equipment.name: Equipment
-cookies.shop.category.equipment.description: '' # TODO: Add description
+cookies.shop.category.equipment.description: Equipment for the fight
 cookies.shop.category.special.name: Special items
-cookies.shop.category.special.description: '' # TODO: Add description
+cookies.shop.category.special.description: Special items for combat and play
 cookies.shop.category.general-upgrades.name: General upgrades
 cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
 cookies.shop.category.team-upgrades.name: Team upgrades
@@ -73,7 +75,9 @@ cookies.shop.category.tower-upgrades.description: |
 cookies.shop.category.base-upgrades.name: Base upgrades
 cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
 cookies.shop.category.ultimates: Ultimate upgrades
-cookies.shop.category.ultimates.description: '' # TODO: Add description
+cookies.shop.category.ultimates.description: extra powerful upgrades
+cookies.shop.category.tools.name: Tools
+cookies.shop.category.tools.description: Tools that help you in special situations
 
 # Machines
 cookies.machine.plant.name: Plant
@@ -91,24 +95,7 @@ cookies.machine.shrine.description: '' # TODO: Add description
 cookies.machine.wood_generator: Wood generator
 cookies.machine.wood_generator.description: '' # TODO: Add description
 
-# Items
-cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
-cookies.item.stone_sword.description: '' # TODO: Add description
-cookies.item.iron_sword.name: <lang:item.minecraft.iron_sword>
-cookies.item.iron_sword.description: '' # TODO: Add description
-cookies.item.bow.name: <lang:item.minecraft.bow>
-cookies.item.bow.description: '' # TODO: Add description
-cookies.item.arrow.name: <lang:item.minecraft.arrow>
-cookies.item.arrow.description: '' # TODO: Add description
-cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
-cookies.item.spectral_arrow.description: '' # TODO: Add description
-cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
-cookies.item.chainmail_chestplate.description: '' # TODO: Add description
-cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
-cookies.item.golden_apple.description: '' # TODO: Add description
-# TODO: Add more items
-
-# Upgrades
+# Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Efficiency I
 cookies.upgrade.efficiency.level.1.description: Increases the your mining speed by 30%
 cookies.upgrade.efficiency.level.2.name: Efficiency II
@@ -129,4 +116,126 @@ cookies.upgrade.discount.level.2.name: Discount II
 cookies.upgrade.discount.level.2.description: |
   Reduces the price of most upgrades at
   the upgrade shop by 30%
-# TODO: Add more upgrades
+cookies.upgrade.drop_bonus.level.1.name: Drop Bonus I
+cookies.upgrade.drop_bonus.level.1.description: |
+  <strikethrough>10%</strikethrough> 20% chance for Cookie Blocks from Gold Blocks  
+  <strikethrough>20%</strikethrough> 40% chance for Double Cookies from Gold Blocks
+cookies.upgrade.drop_bonus.level.2.name: Drop Bonus II
+cookies.upgrade.drop_bonus.level.2.description: |
+  <strikethrough>20%</strikethrough> 30% chance for Cookie Blocks from Gold Blocks  
+  <strikethrough>40%</strikethrough> 60% chance for Double Cookies from Gold Blocks
+cookies.upgrade.drop_bonus.level.3.name: Drop Bonus III
+cookies.upgrade.drop_bonus.level.3.description: |
+  <strikethrough>30%</strikethrough> 40% chance for Cookie Blocks from Gold Blocks  
+  <strikethrough>60%</strikethrough> 80% chance for Double Cookies from Gold Blocks
+cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
+cookies.upgrade.quick_spawn.level.1.description: Your machines produce 20% faster
+cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
+cookies.upgrade.quick_spawn.level.2.description: Your machines produce 30% faster
+cookies.upgrade.security.level.1.name: Security I
+cookies.upgrade.security.level.1.description: Enemies receive <lang:effect.minecraft.blindness> in your machines
+cookies.upgrade.security.level.2.name: Security II
+cookies.upgrade.security.level.2.description: Enemies receive <lang:effect.minecraft.poison> in your machines
+
+# Tower Upgrades
+cookies.upgrade.frugality.level.1.name: Frugality I
+cookies.upgrade.frugality.level.1.description: Otto saves one block in 10% of cases.
+cookies.upgrade.frugality.level.2.name: Frugality II
+cookies.upgrade.frugality.level.2.description: Otto saves one block in 20% of cases.
+cookies.upgrade.frugality.level.3.name: Frugality III
+cookies.upgrade.frugality.level.3.description: Otto saves one block in 30% of cases.
+cookies.upgrade.building_speed.level.1.name: Speed I
+cookies.upgrade.building_speed.level.1.description: Otto builds 10% faster.
+cookies.upgrade.building_speed.level.2.name: Speed II
+cookies.upgrade.building_speed.level.2.description: Otto builds 20% faster.
+cookies.upgrade.building_speed.level.3.name: Speed III
+cookies.upgrade.building_speed.level.3.description: Otto builds 30% faster.
+cookies.upgrade.building_speed.level.4.name: Speed IV
+cookies.upgrade.building.speed.level.4.description: Otto builds 40% faster.
+cookies.upgrade.resistance.level.1.name: Resistance I
+cookies.upgrade.resistance.level.1.description: Otto's blocks become tougher.
+cookies.upgrade.resistance.level.2.name: Resistance II
+cookies.upgrade.resistance.level.2.description: Otto's blocks become much tougher.
+cookies.upgrade.tower_teleport.level.1.name: Tower Teleport I
+cookies.upgrade.tower_teleport.level.1.description: |
+  Tower Teleport is activated  
+  Cooldown: 30 seconds
+cookies.upgrade.tower_teleport.level.2.name: Tower Teleport II
+cookies.upgrade.tower_teleport.level.2.description: |
+  Cooldown: <strikethrough>30</strikethrough> 15 seconds
+cookies.upgrade.tower_teleport.level.3.name: Tower Teleport III
+cookies.upgrade.tower_teleport.level.3.description: |
+  Cooldown: <strikethrough>15</strikethrough> 5 seconds
+cookies.upgrade.alarm.level.1.name: Watcher I
+cookies.upgrade.alarm.level.1.description: |
+  When an enemy is near your tower,  
+  your team gets notified.
+cookies.upgrade.alarm.level.2.name: Watcher II
+cookies.upgrade.alarm.level.2.description: |
+  When an enemy is near your tower,  
+  the tower starts glowing.
+cookies.upgrade.spy.level.1.name: Spy
+cookies.upgrade.spy.level.1.description: |
+  Your team can always keep  
+  an eye on enemy towers.
+
+# Base Upgrades
+cookies.upgrade.slowness.level.1.name: Slowness (Enemies)
+cookies.upgrade.slowness.level.1.description: Enemies receive <lang:effect.minecraft.slowness> I in your base
+cookies.upgrade.weakness.level.1.name: Weakness (Enemies)
+cookies.upgrade.weakness.level.1.description: Enemies receive <lang:effect.minecraft.weakness> I in your base
+cookies.upgrade.regeneration.level.1.name: Regeneration
+cookies.upgrade.regeneration.level.1.description: Gain <lang:effect.minecraft.regeneration> I in your base
+cookies.upgrade.strength.level.1.name: Strength
+cookies.upgrade.strength.level.1.description: Gain <lang:effect.minecraft.strength> I in your base
+cookies.upgrade.simple_deposit.level.1.name: Simple Deposit
+cookies.upgrade.simple_deposit.level.1.description: |
+  <yellow><lang:key.mouse.left> on Banker:</yellow> Deposit all cookies  
+  <yellow><lang:key.mouse.left> + <lang:key.sneak> on Banker:</yellow> Deposit all cookies + cookie blocks
+
+# Ultimate Upgrades
+cookies.ultimate.building_speed.name: Ultimate Speed
+cookies.ultimate.building_speed.description: Otto builds 50% faster.
+cookies.ultimate.movement_speed.name: Ultimate Swiftness
+cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> III.
+cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
+cookies.ultimate.quick_spawn.description: Machines produce 35% faster.
+cookies.ultimate.resistance.name: Ultimate Resistance
+cookies.ultimate.resistance.description: Otto's blocks become rock-solid.
+
+
+# Special Items
+cookies.item.tower.name: Pop-Up Tower
+cookies.item.invisibility.name: <lang:item.minecraft.potion.effect.invisibility>
+cookies.item.jump_boost.name: <lang:item.minecraft.potion.effect.leaping>
+cookies.item.sandstone.name: <lang:block.minecraft.sandstone>
+cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
+
+# Equipment
+cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
+cookies.item.iron_sword.name: <lang:item.minecraft.iron_sword>
+cookies.item.bow.name: <lang:item.minecraft.bow>
+cookies.item.arrow.name: <lang:item.minecraft.arrow>
+cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
+cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
+cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
+
+# Tools
+cookies.item.magnet.name: Magnet
+cookies.item.tnt.name: <lang:block.minecraft.tnt>
+cookies.item.mine.name: Mine
+cookies.item.cookie_breaker.name: Cookie Breaker
+cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
+cookies.item.teleporter.name: Teleporter
+cookies.item.trap.name: Trap
+
+#ToDos
+cookies.todos: Tasks
+cookies.todo.in_the_middle: Into the middle
+cookies.todo.marathon_runner: Marathon Runner
+cookies.todo.business: Business
+cookies.todo.killer: Killer
+cookies.todo.Cookie_Placer: Cookie Placer
+cookies.todo.place_a_maschine: Place a machine
+cookies.todo.buy_an_upgrade: Buy an upgrade
+cookies.todo.start_building: Start building

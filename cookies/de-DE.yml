@@ -15,7 +15,16 @@ cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
 cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
 cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet
- 
+
+# End phase
+cookies.winner.nobody: <red>Niemand
+cookies.won.chat: ${cookies.winner} <green>hat das Spiel gewonnen
+cookies.won.title: ${cookies.winner}
+cookies.won.subtitle: <green>hat das Spiel gewonnen
+cookies.server_closes_in: Dieser Server schließt in <yellow>${0}</yellow> Sekunden
+cookies.server_closes_now: Dieser Server schließt <yellow>jetzt</yellow>
+
+
 # Information
 cookies.map: Spielkarte
 cookies.format: Format
@@ -28,6 +37,22 @@ cookies.player_joined: ${0} hat das Spiel betreten
 cookies.player_left: ${0} hat das Spiel verlassen
 cookies.player_rejoined: ${0} hat das Spiel erneut betreten
 cookies.stats_disabled: Statistiken sind in diesem Spiel deaktiviert
+
+# Teams
+cookies.team.team_red.name: Rot
+cookies.team.team_red.display_name: <red>Rotes Team</red>
+cookies.team.team_blue.name: Blau
+cookies.team.team_blue.display_name: <blue>Blaues Team</blue>
+cookies.team.team_yellow.name: Gelb
+cookies.team.team_yellow.display_name: <yellow>Gelbes Team</yellow>
+cookies.team.team_green.name: Grün
+cookies.team.team_green.display_name: <green>Grünes Team</green>
+cookies.team.team_orange.name: Orange
+cookies.team.team_orange.display_name: <gold>Oranges Team</gold>
+cookies.team.team_dark_blue.name: Dunkelblau
+cookies.team.team_dark_blue.display_name: <dark_blue>Dunkelblaues Team</dark_blue>
+cookies.team.team_dark_green.name: Dunkelgrün
+cookies.team.team_dark_green.display_name: <dark_green>Dunkelgrünes Team</dark_green>
 
 # Shop
 cookies.shop.price: 'Preis: <gold>${0} Cookies</gold>'
@@ -55,12 +80,19 @@ cookies.shop.category.tools.description: Werkzeuge, welche dir in besonderen Sit
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
+cookies.machine.plant.description: '' # TODO: Add description
 cookies.machine.well.name: Brunnen
+cookies.machine.well.description: '' # TODO: Add description
 cookies.machine.factory.name: Fabrik
+cookies.machine.factory.description: '' # TODO: Add description
 cookies.machine.tree.name: Baum
+cookies.machine.tree.description: '' # TODO: Add description
 cookies.machine.drill.name: Bohrer
+cookies.machine.drill.description: '' # TODO: Add description
 cookies.machine.shrine.name: Schrein
+cookies.machine.shrine.description: '' # TODO: Add description
 cookies.machine.wood_generator.name: Holzgenerator
+cookies.machine.wood_generator.description: '' # TODO: Add description
 
 # Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Effizienz I
@@ -100,7 +132,7 @@ cookies.upgrade.security.level.1.description: Gegner erhalten <lang:effect.minec
 cookies.upgrade.security.level.2.name: Sicherheit II
 cookies.upgrade.security.level.2.description: Gegner erhalten <lang:effect.minecraft.poison> in deinen Maschinen
 
-# Turm Upgrades
+# Tower Upgrades
 cookies.upgrade.frugality.level.1.name: Sparsamkeit I
 cookies.upgrade.frugality.level.1.description: Otto spart zu 10% einen Block ein.
 cookies.upgrade.frugality.level.2.name: Sparsamkeit II
@@ -166,12 +198,21 @@ cookies.ultimate.quick_spawn.description: Die Maschinen produzieren 35% schnelle
 cookies.ultimate.resistance.name: Ultimative Resistenz
 cookies.ultimate.resistance.description: Ottos Blöcke werden steinhart.
 
-# Spezielle Items
+# Special Items
 cookies.item.tower.name: Pop-Up-Turm
 cookies.item.invisibility.name: <lang:item.minecraft.potion.effect.invisibility>
 cookies.item.jump_boost.name: <lang:item.minecraft.potion.effect.leaping>
 cookies.item.sandstone.name: <lang:block.minecraft.sandstone>
 cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
+
+# Equipment
+cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
+cookies.item.iron_sword.name: <lang:item.minecraft.iron>
+cookies.item.bow.name: <lang:item.minecraft.bow>
+cookies.item.arrow.name: <lang:item.minecraft.arrow>
+cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
+cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
+cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
 
 # Tools
 cookies.item.magnet.name: Magnet
@@ -181,10 +222,14 @@ cookies.item.cookie_breaker.name: Cookie Breaker
 cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
-cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
-cookies.item.iron_sword.name: <lang:item.minecraft.iron>
-cookies.item.bow.name: <lang:item.minecraft.bow>
-cookies.item.arrow.name: <lang:item.minecraft.arrow>
-cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
-cookies.item.chainmail_chestplate.name: <lang:item.minecraft.chainmail_chestplate>
-cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
+
+#ToDos
+cookies.todos: Aufgaben
+cookies.todo.in_the_middle: In die Mitte
+cookies.todo.marathon_runner: Marathonläufer
+cookies.todo.business: Business
+cookies.todo.killer: Killer
+cookies.todo.Cookie_Placer: Cookie Placer
+cookies.todo.place_a_maschine: Plaziere eine Maschine
+cookies.todo.buy_an_upgrade: Kaufe ein Upgrade
+cookies.todo.start_building: Fang an zu bauen
