@@ -14,7 +14,7 @@ cookies.cannot_place_machine_here: You cannot place this machine here
 cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
-cookies.upgrade.bought: Your team has unlocked the ${0} upgrade #TODO May need to be changed
+cookies.upgrade.bought: Your team has unlocked the ${0} upgrade
 
 # End phase
 cookies.winner.nobody: <red>Nobody
@@ -63,7 +63,7 @@ cookies.shop.category.machines.description: Machines that produce cookies
 cookies.shop.category.equipment.name: Equipment
 cookies.shop.category.equipment.description: Equipment for the fight
 cookies.shop.category.special.name: Special items
-cookies.shop.category.special.description: Special items for combat and play
+cookies.shop.category.special.description: Special items for special situations
 cookies.shop.category.general-upgrades.name: General upgrades
 cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
 cookies.shop.category.team-upgrades.name: Team upgrades
@@ -75,9 +75,9 @@ cookies.shop.category.tower-upgrades.description: |
 cookies.shop.category.base-upgrades.name: Base upgrades
 cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
 cookies.shop.category.ultimates: Ultimate upgrades
-cookies.shop.category.ultimates.description: extra powerful upgrades
+cookies.shop.category.ultimates.description: Extra powerful upgrades
 cookies.shop.category.tools.name: Tools
-cookies.shop.category.tools.description: Tools that help you in special situations
+cookies.shop.category.tools.description: Tools which will help you in special situations
 
 # Machines
 cookies.machine.plant.name: Plant
@@ -118,16 +118,16 @@ cookies.upgrade.discount.level.2.description: |
   the upgrade shop by 30%
 cookies.upgrade.drop_bonus.level.1.name: Drop Bonus I
 cookies.upgrade.drop_bonus.level.1.description: |
-  <strikethrough>10%</strikethrough> 20% chance for Cookie Blocks from Gold Blocks  
-  <strikethrough>20%</strikethrough> 40% chance for Double Cookies from Gold Blocks
+  <strikethrough>10%</strikethrough> 20% chance for cookie blocks from gold blocks  
+  <strikethrough>20%</strikethrough> 40% chance for double cookies from gold blocks
 cookies.upgrade.drop_bonus.level.2.name: Drop Bonus II
 cookies.upgrade.drop_bonus.level.2.description: |
-  <strikethrough>20%</strikethrough> 30% chance for Cookie Blocks from Gold Blocks  
-  <strikethrough>40%</strikethrough> 60% chance for Double Cookies from Gold Blocks
+  <strikethrough>20%</strikethrough> 30% chance for cookie blocks from gold blocks  
+  <strikethrough>40%</strikethrough> 60% chance for double cookies from gold blocks
 cookies.upgrade.drop_bonus.level.3.name: Drop Bonus III
 cookies.upgrade.drop_bonus.level.3.description: |
-  <strikethrough>30%</strikethrough> 40% chance for Cookie Blocks from Gold Blocks  
-  <strikethrough>60%</strikethrough> 80% chance for Double Cookies from Gold Blocks
+  <strikethrough>30%</strikethrough> 40% chance for cookie blocks from gold blocks  
+  <strikethrough>60%</strikethrough> 80% chance for double cookies from gold blocks
 cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
 cookies.upgrade.quick_spawn.level.1.description: Your machines produce 20% faster
 cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
@@ -139,11 +139,11 @@ cookies.upgrade.security.level.2.description: Enemies receive <lang:effect.minec
 
 # Tower Upgrades
 cookies.upgrade.frugality.level.1.name: Frugality I
-cookies.upgrade.frugality.level.1.description: Otto saves one block in 10% of cases.
+cookies.upgrade.frugality.level.1.description: Otto manages to save a block 10% of the time.
 cookies.upgrade.frugality.level.2.name: Frugality II
-cookies.upgrade.frugality.level.2.description: Otto saves one block in 20% of cases.
+cookies.upgrade.frugality.level.2.description: Otto manages to save a block 20% of the time.
 cookies.upgrade.frugality.level.3.name: Frugality III
-cookies.upgrade.frugality.level.3.description: Otto saves one block in 30% of cases.
+cookies.upgrade.frugality.level.3.description: Otto manages to save a block 30% of the time.
 cookies.upgrade.building_speed.level.1.name: Speed I
 cookies.upgrade.building_speed.level.1.description: Otto builds 10% faster.
 cookies.upgrade.building_speed.level.2.name: Speed II
@@ -229,7 +229,7 @@ cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Trap
 
-#ToDos #TODO May need to be changed
+#ToDos
 cookies.todos: Tasks
 cookies.todo.in_the_middle: Into the middle
 cookies.todo.marathon_runner: Marathon Runner

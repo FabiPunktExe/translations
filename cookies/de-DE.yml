@@ -3,7 +3,7 @@ cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
 cookies.game_starts_now: Cookies beginnt jetzt!
 cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
-cookies.too_less_players_for_start: Es befinden sich nicht genügend Spieler in der Runde, für einen Start
+cookies.too_less_players_for_start: Es sind nicht genügend Spieler in der Runde.
 
 # Ingame Phase
 cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen Upgrades</bold></light_purple> wurden freigeschaltet
@@ -14,7 +14,7 @@ cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platziere
 cookies.your_account: Dein Konto
 cookies.team_account: Team Konto
 cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
-cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet #TODO May need to be changed
+cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet
 
 # End phase
 cookies.winner.nobody: <red>Niemand
