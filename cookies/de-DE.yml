@@ -207,7 +207,7 @@ cookies.item.cobweb.name: <lang:block.minecraft.cobweb>
 
 # Equipment
 cookies.item.stone_sword.name: <lang:item.minecraft.stone_sword>
-cookies.item.iron_sword.name: <lang:item.minecraft.iron>
+cookies.item.iron_sword.name: <lang:item.minecraft.iron_sword>
 cookies.item.bow.name: <lang:item.minecraft.bow>
 cookies.item.arrow.name: <lang:item.minecraft.arrow>
 cookies.item.spectral_arrow.name: <lang:item.minecraft.spectral_arrow>
