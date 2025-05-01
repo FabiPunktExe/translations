@@ -3,7 +3,7 @@ cookies.game_starts_in: Cookies begins in ${cookies.countdown} seconds
 cookies.game_starts_now: Cookies begins now
 cookies.select_team: Select a team
 cookies.you_started: You started the game
-cookies.too_less_players_for_start: Not enough players in the round to start
+cookies.too_less_players_for_start: There are not enough players to start the game
 
 # Ingame Phase
 cookies.ultimates_unlocked: The <light_purple><bold>Ultimate upgrades</bold></light_purple> have been unlocked
@@ -61,11 +61,11 @@ cookies.shop.upgradeshop: Upgrade Shop
 cookies.shop.category.machines.name: Machines
 cookies.shop.category.machines.description: Machines that produce cookies
 cookies.shop.category.equipment.name: Equipment
-cookies.shop.category.equipment.description: Equipment for the fight
+cookies.shop.category.equipment.description: Equipment for fighting
 cookies.shop.category.special.name: Special items
-cookies.shop.category.special.description: Special items for special situations
-cookies.shop.category.general-upgrades.name: General upgrades
-cookies.shop.category.general-upgrades.description: Upgrades that benefit your team
+cookies.shop.category.special.description: Special items for unusual situations
+cookies.shop.category.general_upgrades.name: General upgrades
+cookies.shop.category.general_upgrades.description: Upgrades that benefit your team
 cookies.shop.category.team-upgrades.name: Team upgrades
 cookies.shop.category.team-upgrades.description: Upgrades that benefit your team
 cookies.shop.category.tower-upgrades.name: Tower upgrades
@@ -75,7 +75,9 @@ cookies.shop.category.tower-upgrades.description: |
 cookies.shop.category.base-upgrades.name: Base upgrades
 cookies.shop.category.base-upgrades.description: Upgrades that help you in your base
 cookies.shop.category.ultimates: Ultimate upgrades
-cookies.shop.category.ultimates.description: Extra powerful upgrades
+cookies.shop.category.ultimates.description: | 
+  Extra powerful upgrades,
+  but you can only buy one of them
 cookies.shop.category.tools.name: Tools
 cookies.shop.category.tools.description: Tools which will help you in special situations
 
@@ -97,11 +99,11 @@ cookies.machine.wood_generator.description: '' # TODO: Add description
 
 # Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Efficiency I
-cookies.upgrade.efficiency.level.1.description: Increases the your mining speed by 30%
+cookies.upgrade.efficiency.level.1.description: Receive <lang:enchantment.minecraft.efficiency> I on your <lang:item.minecraft.iron_pickaxe>
 cookies.upgrade.efficiency.level.2.name: Efficiency II
-cookies.upgrade.efficiency.level.2.description: Increases the your mining speed by 69%
+cookies.upgrade.efficiency.level.2.description: Receive <lang:enchantment.minecraft.efficiency> II on your <lang:item.minecraft.iron_pickaxe>
 cookies.upgrade.efficiency.level.3.name: Efficiency III
-cookies.upgrade.efficiency.level.3.description: Increases the your mining speed by 120%
+cookies.upgrade.efficiency.level.3.description: Receive <lang:enchantment.minecraft.efficiency> III on your <lang:item.minecraft.iron_pickaxe>
 cookies.upgrade.movement_speed.level.1.name: Speed I
 cookies.upgrade.movement_speed.level.1.description: Increases your movement speed by 20%
 cookies.upgrade.movement_speed.level.2.name: Speed II
@@ -201,7 +203,7 @@ cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> 
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
 cookies.ultimate.quick_spawn.description: Machines produce 35% faster.
 cookies.ultimate.resistance.name: Ultimate Resistance
-cookies.ultimate.resistance.description: Otto's blocks become rock-solid.
+cookies.ultimate.resistance.description: Otto's blocks become nearly unbreakable.
 
 
 # Special Items
