@@ -80,19 +80,12 @@ cookies.shop.category.tools.description: Werkzeuge, welche dir in besonderen Sit
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
-cookies.machine.plant.description: '' # TODO: Add description
 cookies.machine.well.name: Brunnen
-cookies.machine.well.description: '' # TODO: Add description
 cookies.machine.factory.name: Fabrik
-cookies.machine.factory.description: '' # TODO: Add description
 cookies.machine.tree.name: Baum
-cookies.machine.tree.description: '' # TODO: Add description
 cookies.machine.drill.name: Bohrer
-cookies.machine.drill.description: '' # TODO: Add description
 cookies.machine.shrine.name: Schrein
-cookies.machine.shrine.description: '' # TODO: Add description
 cookies.machine.wood_generator.name: Holzgenerator
-cookies.machine.wood_generator.description: '' # TODO: Add description
 
 # Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Effizienz I
@@ -223,7 +216,7 @@ cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Falle
 
-#ToDos #TODO May need to be changed
+# Todos
 cookies.todos: Aufgaben
 cookies.todo.in_the_middle: In die Mitte
 cookies.todo.marathon_runner: Marathonläufer
