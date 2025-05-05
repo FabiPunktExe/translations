@@ -15,6 +15,7 @@ cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
 cookies.upgrade.bought: Your team has unlocked the ${0} upgrade
+cookies.tower_teleport.not_bought: <red>You have to buy <yellow>${tr.cookies.upgrade.tower_teleport.level.1.name}</yellow> to teleport
 
 # End phase
 cookies.winner.nobody: <red>Nobody
