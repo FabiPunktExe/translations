@@ -202,8 +202,7 @@ cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> 
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
 cookies.ultimate.quick_spawn.description: Machines produce 35% faster.
 cookies.ultimate.resistance.name: Ultimate Resistance
-cookies.ultimate.resistance.description: Otto's blocks become nearly unbreakable.
-
+cookies.ultimate.resistance.description: "Otto's blocks become nearly unbreakable."
 
 # Special Items
 cookies.item.tower.name: Pop-Up Tower
@@ -230,8 +229,11 @@ cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Trap
 
-#ToDos
-cookies.todos: Tasks
+# Tasks
+cookies.task: Task: ${tr.cookies.task.${0}} (${1}/${2})
+cookies.task_assigned: <gray>New task: <yellow>${tr.cookies.task.${0}}</yellow> (Reward: +${3} Cookies)</gray>
+cookies.task_completed: <gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold></gray>
+cookies.team_task_completed: <gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold> for your team</gray>
 cookies.todo.in_the_middle: Into the middle
 cookies.todo.marathon_runner: Marathon Runner
 cookies.todo.business: Business
