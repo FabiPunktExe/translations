@@ -14,7 +14,8 @@ cookies.cannot_place_machine_here: You cannot place this machine here
 cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
-cookies.upgrade.bought: Your team has unlocked the ${0} upgrade
+cookies.upgrade.bought: <green>Your team unlocked <yellow>${0}</yellow>
+cookies.tower_teleport.not_bought: <red>You have to buy <yellow>${tr.cookies.upgrade.tower_teleport.level.1.name}</yellow> to teleport
 
 # End phase
 cookies.winner.nobody: <red>Nobody
@@ -48,8 +49,6 @@ cookies.team.team_green.name: Green
 cookies.team.team_green.display_name: <green>Green team</green>
 cookies.team.team_orange.name: Orange
 cookies.team.team_orange.display_name: <gold>Orange team</gold>
-cookies.team.team_dark_blue.name: Dark Blue
-cookies.team.team_dark_blue.display_name: <dark_blue>Dark blue team</dark_blue>
 cookies.team.team_dark_green.name: Green
 cookies.team.team_dark_green.display_name: <dark_green>Dark green team</dark_green>
 
