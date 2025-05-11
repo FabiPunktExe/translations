@@ -202,7 +202,7 @@ cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> 
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
 cookies.ultimate.quick_spawn.description: Machines produce 35% faster.
 cookies.ultimate.resistance.name: Ultimate Resistance
-cookies.ultimate.resistance.description: "Otto's blocks become nearly unbreakable."
+cookies.ultimate.resistance.description: Otto's blocks become nearly unbreakable
 
 # Special Items
 cookies.item.tower.name: Pop-Up Tower
