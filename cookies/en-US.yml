@@ -230,10 +230,10 @@ cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Trap
 
 # Tasks
-cookies.task: Task: ${tr.cookies.task.${0}} (${1}/${2})
-cookies.task_assigned: <gray>New task: <yellow>${tr.cookies.task.${0}}</yellow> (Reward: +${3} Cookies)</gray>
-cookies.task_completed: <gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold></gray>
-cookies.team_task_completed: <gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold> for your team</gray>
+cookies.task: 'Task: ${tr.cookies.task.${0}} (${1}/${2})'
+cookies.task_assigned: '<gray>New task: <yellow>${tr.cookies.task.${0}}</yellow> (Reward: +${3} Cookies)</gray>'
+cookies.task_completed: '<gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold></gray>'
+cookies.team_task_completed: '<gray>Task completed: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Reward: <gold>+${3} Cookies</gold> for your team</gray>'
 cookies.task.cookie_farmer: Break a golden block at the middle
 cookies.task.business: Save cookies in your team account at the banker
 cookies.task.pay_tower: Pay Otto to build your tower
