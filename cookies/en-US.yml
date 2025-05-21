@@ -14,7 +14,9 @@ cookies.cannot_place_machine_here: You cannot place this machine here
 cookies.your_account: Your account
 cookies.team_account: Team account
 cookies.cookie_rain_announcement: A cookie rain appears in the sky
-cookies.upgrade.bought: <green>Your team unlocked <yellow>${0}</yellow>
+cookies.upgrade.bought: Your team unlocked <yellow>${0}</yellow>
+cookies.chat.team: "<gray>[<hover:show_text:'Only your team can read this message'>${tr.cookies.team.${0}.display_name}</hover>]</gray> ${1} <gray>»</gray> ${2}"
+cookies.chat.global: "<gray>[<white><hover:show_text:'Every team can read this message'>${0}</hover></white>]</gray> ${1} <gray>»</gray> ${2}"
 cookies.tower_teleport.not_bought: <red>You have to buy <yellow>${tr.cookies.upgrade.tower_teleport.level.1.name}</yellow> to teleport
 
 # End phase
