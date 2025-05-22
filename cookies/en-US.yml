@@ -90,8 +90,8 @@ cookies.machine.well.name: Well
 cookies.machine.factory.name: Factory
 cookies.machine.tree.name: Tree
 cookies.machine.drill.name: Drill
-cookies.machine.shrine: Shrine
-cookies.machine.wood_generator: Wood generator
+cookies.machine.shrine.name: Shrine
+cookies.machine.wood_generator.name: Wood generator
 
 # Team Upgrades
 cookies.upgrade.efficiency.level.1.name: Efficiency I
