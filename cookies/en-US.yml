@@ -129,9 +129,9 @@ cookies.upgrade.drop_bonus.level.3.description: |
   <strikethrough>30%</strikethrough> 40% chance for cookie blocks from gold blocks  
   <strikethrough>60%</strikethrough> 80% chance for double cookies from gold blocks
 cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
-cookies.upgrade.quick_spawn.level.1.description: Machines produce 20% faster
+cookies.upgrade.quick_spawn.level.1.description: Your machines produce 20% faster
 cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
-cookies.upgrade.quick_spawn.level.2.description: Machines produce 30% faster
+cookies.upgrade.quick_spawn.level.2.description: Your machines produce 30% faster
 cookies.upgrade.security.level.1.name: Security I
 cookies.upgrade.security.level.1.description: Enemies receive <lang:effect.minecraft.blindness> in your machines
 cookies.upgrade.security.level.2.name: Security II
@@ -197,7 +197,7 @@ cookies.ultimate.building_speed.description: Otto builds 50% faster
 cookies.ultimate.movement_speed.name: Ultimate Swiftness
 cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> III.
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
-cookies.ultimate.quick_spawn.description: Machines produce 35% faster
+cookies.ultimate.quick_spawn.description: Your machines produce 35% faster
 cookies.ultimate.resistance.name: Ultimate Resistance
 cookies.ultimate.resistance.description: Otto's blocks become nearly unbreakable
 
