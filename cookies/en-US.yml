@@ -4,6 +4,7 @@ cookies.game_starts_now: Cookies begins now
 cookies.select_team: Select a team
 cookies.you_started: You started the game
 cookies.too_less_players_for_start: There are not enough players to start the game
+cookies.map_changed: The map was changed to <yellow>${0}
 
 # Ingame Phase
 cookies.ultimates_unlocked: The <light_purple><bold>Ultimate upgrades</bold></light_purple> have been unlocked
