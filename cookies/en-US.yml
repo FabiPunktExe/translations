@@ -222,7 +222,7 @@ cookies.item.golden_apple.name: <lang:item.minecraft.golden_apple>
 cookies.item.magnet.name: Magnet
 cookies.item.tnt.name: <lang:block.minecraft.tnt>
 cookies.item.mine.name: Mine
-cookies.item.cookie_breaker.name: Cookie Breaker
+cookies.item.cookie_block_remover.name: Cookie Block Remover
 cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
 cookies.item.trap.name: Trap
