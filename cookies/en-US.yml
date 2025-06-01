@@ -152,11 +152,11 @@ cookies.upgrade.frugality.level.3.description: Otto manages to save a block 30% 
 cookies.upgrade.building_speed.level.1.name: Speed I
 cookies.upgrade.building_speed.level.1.description: Otto builds 10% faster
 cookies.upgrade.building_speed.level.2.name: Speed II
-cookies.upgrade.building_speed.level.2.description: Otto builds 20% faster
+cookies.upgrade.building_speed.level.2.description: Otto builds <strikethrough>10%</strikethrough> 20% faster
 cookies.upgrade.building_speed.level.3.name: Speed III
-cookies.upgrade.building_speed.level.3.description: Otto builds 30% faster
+cookies.upgrade.building_speed.level.3.description: Otto builds <strikethrough>20%</strikethrough> 30% faster
 cookies.upgrade.building_speed.level.4.name: Speed IV
-cookies.upgrade.building_speed.level.4.description: Otto builds 40% faster
+cookies.upgrade.building_speed.level.4.description: Otto builds <strikethrough>30%</strikethrough> 40% faster
 cookies.upgrade.resistance.level.1.name: Resistance I
 cookies.upgrade.resistance.level.1.description: "Otto's blocks become tougher"
 cookies.upgrade.resistance.level.2.name: Resistance II
@@ -198,7 +198,7 @@ cookies.upgrade.simple_deposit.level.1.description: |
 
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimate Speed
-cookies.ultimate.building_speed.description: Otto builds 55% faster
+cookies.ultimate.building_speed.description: Otto builds <strikethrough>40%</strikethrough> 55% faster
 cookies.ultimate.movement_speed.name: Ultimate Swiftness
 cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> III.
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
