@@ -193,7 +193,7 @@ cookies.upgrade.simple_deposit.level.1.description: |
   
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
-cookies.ultimate.building_speed.description: Otto baut <strikethrough>40%</strikethrough> 50% schneller
+cookies.ultimate.building_speed.description: Otto baut <strikethrough>40%</strikethrough> 55% schneller
 cookies.ultimate.movement_speed.name: Ultimative Schnelligkeit
 cookies.ultimate.movement_speed.description: Erhalte <lang:effect.minecraft.speed> III
 cookies.ultimate.quick_spawn.name: Ultimatives Quick Spawn
