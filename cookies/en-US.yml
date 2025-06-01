@@ -21,6 +21,10 @@ cookies.chat.team: "<gray>[<hover:show_text:'Only your team can read this messag
 cookies.chat.global: "<gray>[<white><hover:show_text:'Every team can read this message'>${0}</hover></white>]</gray> ${1} <gray>»</gray> ${2}"
 cookies.tower_teleport.not_bought: <red>You have to buy <yellow>${tr.cookies.upgrade.tower_teleport.level.1.name}</yellow> to teleport
 cookies.tower_teleport.teleported: <dark_aqua>Wooosh!
+cookies.player_died: '${0} died'
+cookies.player_killed: '${0} was killed by ${1}'
+cookies.kill.title: '<yellow>⚔'
+cookies.kill.subtitle: '<yellow>${1} Kills'
 
 # End phase
 cookies.winner.nobody: <red>Nobody

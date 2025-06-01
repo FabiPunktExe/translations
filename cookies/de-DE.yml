@@ -23,6 +23,10 @@ cookies.tower_teleport.not_bought: <red>Du musst erst <yellow>${tr.cookies.upgra
 cookies.tower_teleport.teleported: <dark_aqua>Wooosh!
 cookies.tower_teleport.on_cooldown: <red>Du musst warten, bis Tower-Teleport verfügbar ist
 cookies.tower_teleport.wrong_team: <red>Du kannst dich nicht auf den Turm von anderen Teams teleportieren
+cookies.player_died: '${0} ist gestorben'
+cookies.player_killed: '${0} wurde von ${1} getötet'
+cookies.kill.title: '<yellow>⚔'
+cookies.kill.subtitle: '<yellow>${1} Kills'
 
 # End phase
 cookies.winner.nobody: <red>Niemand
