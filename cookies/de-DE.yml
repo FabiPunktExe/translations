@@ -25,8 +25,8 @@ cookies.tower_teleport.on_cooldown: <red>Du musst warten, bis Tower-Teleport ver
 cookies.tower_teleport.wrong_team: <red>Du kannst dich nicht auf den Turm von anderen Teams teleportieren
 cookies.player_died: '${0} ist gestorben'
 cookies.player_killed: '${0} wurde von ${1} getötet'
-cookies.kill.title: '⚔'
-cookies.kill.subtitle: '${1} Kills'
+cookies.kill.title: '<yellow>⚔'
+cookies.kill.subtitle: '<yellow>${1} Kills'
 
 # End phase
 cookies.winner.nobody: <red>Niemand
