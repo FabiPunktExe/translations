@@ -23,8 +23,8 @@ cookies.tower_teleport.not_bought: <red>You have to buy <yellow>${tr.cookies.upg
 cookies.tower_teleport.teleported: <dark_aqua>Wooosh!
 cookies.player_died: '${0} died'
 cookies.player_killed: '${0} was killed by ${1}'
-cookies.kill.title: '⚔'
-cookies.kill.subtitle: '${1} Kills'
+cookies.kill.title: '<yellow>⚔'
+cookies.kill.subtitle: '<yellow>${1} Kills'
 
 # End phase
 cookies.winner.nobody: <red>Nobody
