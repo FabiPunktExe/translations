@@ -198,7 +198,7 @@ cookies.upgrade.simple_deposit.level.1.description: |
 
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimate Speed
-cookies.ultimate.building_speed.description: Otto builds 50% faster
+cookies.ultimate.building_speed.description: Otto builds 55% faster
 cookies.ultimate.movement_speed.name: Ultimate Swiftness
 cookies.ultimate.movement_speed.description: Gain <lang:effect.minecraft.speed> III.
 cookies.ultimate.quick_spawn.name: Ultimate Quick Spawn
