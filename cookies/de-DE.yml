@@ -3,18 +3,26 @@ cookies.game_starts_in: Cookies beginnt in ${cookies.countdown} Sekunden
 cookies.game_starts_now: Cookies beginnt jetzt!
 cookies.select_team: Wähle ein Team aus
 cookies.you_started: Du hast das Spiel gestartet
-cookies.too_less_players_for_start: Es sind nicht genügend Spieler in der Runde.
+cookies.too_less_players_for_start: Es sind nicht genügend Spieler in der Runde
+cookies.map_changed: Die Spielkarte wurde zu <yellow>${0}</yellow> geändert
 
 # Ingame Phase
 cookies.ultimates_unlocked: Die <light_purple><bold>Ultimativen Upgrades</bold></light_purple> wurden freigeschaltet
 cookies.team_dropped_out: ${0} ist ausgeschieden
 cookies.cannot_place_in_spawn_area: Du kannst im Spawnbereich keine Blöcke platzieren
-cookies.machine_limit_reached: Du hast das Limit für diese Maschine erreicht
+cookies.machine_limit_reached: Du hast das Limit dieser Maschinenart erreicht
 cookies.cannot_place_machine_here: Du kannst diese Maschine hier nicht platzieren
 cookies.your_account: Dein Konto
-cookies.team_account: Team Konto
-cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf. Holt sie euch alle!
-cookies.upgrade.bought: Dein Team hat das Upgrade ${0} freigeschaltet
+cookies.team_account: Teamkonto
+cookies.cookie_rain_announcement: Ein Keksregen zieht am Himmel auf
+cookies.upgrade.bought: Dein Team hat <yellow>${0}</yellow> gekauft
+cookies.upgrade.bought: Dein Team hat <light_purple><bold>${0}</bold></light_purple> gekauft
+cookies.chat.team: "<gray>[<hover:show_text:'Nur dein Team kann diese Nachricht lesen'>${tr.cookies.team.${0}.display_name}</hover>]</gray> ${1} <gray>»</gray> <white>${2}"
+cookies.chat.global: "<gray>[<white><hover:show_text:'Jedes Team kann diese Nachricht lesen'>${0}</hover></white>]</gray> ${1} <gray>»</gray> <white>${2}"
+cookies.tower_teleport.not_bought: <red>Du musst erst <yellow>${tr.cookies.upgrade.tower_teleport.level.1.name}</yellow> kaufen um dich zu teleportieren
+cookies.tower_teleport.teleported: <dark_aqua>Wooosh!
+cookies.tower_teleport.on_cooldown: <red>Du musst warten, bis Tower-Teleport verfügbar ist
+cookies.tower_teleport.wrong_team: <red>Du kannst dich nicht auf den Turm von anderen Teams teleportieren
 
 # End phase
 cookies.winner.nobody: <red>Niemand
@@ -49,18 +57,17 @@ cookies.team.team_green.name: Grün
 cookies.team.team_green.display_name: <green>Grünes Team</green>
 cookies.team.team_orange.name: Orange
 cookies.team.team_orange.display_name: <gold>Oranges Team</gold>
-cookies.team.team_dark_blue.name: Dunkelblau
-cookies.team.team_dark_blue.display_name: <dark_blue>Dunkelblaues Team</dark_blue>
 cookies.team.team_dark_green.name: Dunkelgrün
 cookies.team.team_dark_green.display_name: <dark_green>Dunkelgrünes Team</dark_green>
 
 # Shop
-cookies.shop.price: 'Preis: <gold>${0} Cookies</gold>'
-cookies.shop.discounted_price: 'Preis: <gold><strikethrough>${0} Cookies</strikethrough> ${1} Cookies</gold>'
-cookies.shop.upgradeshop: Upgrade Shop
-cookies.shop.itemshop: Item Shop
+cookies.banker: Bänker
+cookies.shop.price: 'Preis: <gold>${0} Kekse</gold>'
+cookies.shop.discounted_price: 'Preis: <gold><strikethrough>${0} Cookies</strikethrough> ${1} Kekse</gold>'
+cookies.shop.itemshop: Händler
+cookies.shop.upgradeshop: Upgrades
 cookies.shop.category.machines.name: Maschinen
-cookies.shop.category.machines.description: Maschinen produzieren Cookies
+cookies.shop.category.machines.description: Maschinen produzieren Kekse
 cookies.shop.category.equipment.name: Ausrüstung
 cookies.shop.category.equipment.description: Ausrüstung für den Kampf
 cookies.shop.category.special.name: Spezielle Items
@@ -77,6 +84,7 @@ cookies.shop.category.ultimates: Ultimative Upgrades
 cookies.shop.category.ultimates.description: Extrem starke und exklusive Upgrades
 cookies.shop.category.tools.name: Werkzeuge
 cookies.shop.category.tools.description: Werkzeuge, welche dir in besonderen Situationen weiterhelfen
+cookies.shop.ultimate_already_bought: Dein Team hat schon ein Ultimatives Upgrade gekauft
 
 # Maschinen
 cookies.machine.plant.name: Pflanze
@@ -105,17 +113,11 @@ cookies.upgrade.discount.level.1.description: Reduziert den Preis von allen Item
 cookies.upgrade.discount.level.2.name: Rabatt II
 cookies.upgrade.discount.level.2.description: Reduziert den Preis von allen Upgrades um 30%
 cookies.upgrade.drop_bonus.level.1.name: Drop Bonus I
-cookies.upgrade.drop_bonus.level.1.description: |
-  <strikethrough>10%</strikethrough> 20% Chance auf Keksblöcke aus Goldblöcken
-  <strikethrough>20%</strikethrough> 40% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.drop_bonus.level.1.description: <strikethrough>20%</strikethrough> 40% Chance auf Keksblöcke und Doppelkekse aus Goldblöcken
 cookies.upgrade.drop_bonus.level.2.name: Drop Bonus II
-cookies.upgrade.drop_bonus.level.2.description: |
-  <strikethrough>20%</strikethrough> 30% Chance auf Keksblöcke aus Goldblöcken
-  <strikethrough>40%</strikethrough> 60% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.drop_bonus.level.2.description: <strikethrough>40%</strikethrough> 60% Chance auf Keksblöcke und Doppelkekse aus Goldblöcken
 cookies.upgrade.drop_bonus.level.3.name: Drop Bonus III
-cookies.upgrade.drop_bonus.level.3.description: |
-  <strikethrough>30%</strikethrough> 40% Chance auf Keksblöcke aus Goldblöcken
-  <strikethrough>60%</strikethrough> 80% Chance auf Doppelkekse aus Goldblöcken
+cookies.upgrade.drop_bonus.level.3.description: <strikethrough>60%</strikethrough> 80% Chance auf Keksblöcke und Doppelkekse aus Goldblöcken
 cookies.upgrade.quick_spawn.level.1.name: Quick Spawn I
 cookies.upgrade.quick_spawn.level.1.description: Deine Maschinen produzieren 20% schneller
 cookies.upgrade.quick_spawn.level.2.name: Quick Spawn II
@@ -127,23 +129,29 @@ cookies.upgrade.security.level.2.description: Gegner erhalten <lang:effect.minec
 
 # Tower Upgrades
 cookies.upgrade.frugality.level.1.name: Sparsamkeit I
-cookies.upgrade.frugality.level.1.description: Otto spart zu 10% einen Block ein.
+cookies.upgrade.frugality.level.1.description: |
+  Erhalte 3 Kekse zu einer Wahrscheinlichkeit
+  von 10%, wenn Otto einen Block baut
 cookies.upgrade.frugality.level.2.name: Sparsamkeit II
-cookies.upgrade.frugality.level.2.description: Otto spart zu 20% einen Block ein.
+cookies.upgrade.frugality.level.2.description: |
+  Erhalte 3 Kekse zu einer Wahrscheinlichkeit
+  von <strikethrough>10%</strikethrough> 20%, wenn Otto einen Block baut
 cookies.upgrade.frugality.level.3.name: Sparsamkeit III
-cookies.upgrade.frugality.level.3.description: Otto spart zu 30% einen Block ein.
+cookies.upgrade.frugality.level.3.description: |
+  Erhalte 3 Kekse zu einer Wahrscheinlichkeit
+  von <strikethrough>20%</strikethrough> 30%, wenn Otto einen Block baut
 cookies.upgrade.building_speed.level.1.name: Geschwindigkeit I
-cookies.upgrade.building_speed.level.1.description: Otto baut 10% schneller.
+cookies.upgrade.building_speed.level.1.description: Otto baut 10% schneller
 cookies.upgrade.building_speed.level.2.name: Geschwindigkeit II
-cookies.upgrade.building_speed.level.2.description: Otto baut 20% schneller.
+cookies.upgrade.building_speed.level.2.description: Otto baut <strikethrough>10%</strikethrough> 20% schneller
 cookies.upgrade.building_speed.level.3.name: Geschwindigkeit III
-cookies.upgrade.building_speed.level.3.description: Otto baut 30% schneller.
+cookies.upgrade.building_speed.level.3.description: Otto baut <strikethrough>20%</strikethrough> 30% schneller
 cookies.upgrade.building_speed.level.4.name: Geschwindigkeit IV
-cookies.upgrade.building.speed.level.4.description: Otto baut 40% schneller.
+cookies.upgrade.building.speed.level.4.description: Otto baut <strikethrough>30%</strikethrough> 40% schneller
 cookies.upgrade.resistance.level.1.name: Resistenz I
-cookies.upgrade.resistance.level.1.description: Ottos Blöcke werden härter.
+cookies.upgrade.resistance.level.1.description: Ottos Blöcke werden härter
 cookies.upgrade.resistance.level.2.name: Resistenz II
-cookies.upgrade.resistance.level.2.description: Ottos Blöcke werden viel härter.
+cookies.upgrade.resistance.level.2.description: Ottos Blöcke werden viel härter
 cookies.upgrade.tower_teleport.level.1.name: Tower Teleport I
 cookies.upgrade.tower_teleport.level.1.description: |
   Tower Teleport wird aktiviert
@@ -156,16 +164,14 @@ cookies.upgrade.tower_teleport.level.3.description: |
   Cooldown: <strikethrough>15</strikethrough> 5 Sekunden
 cookies.upgrade.alarm.level.1.name: Wächter I
 cookies.upgrade.alarm.level.1.description: |
-  Wenn ein Gegner in der Nähe deines Turms ist, wird
-  dein Team benachrichtigt.
+  Wenn ein Gegner in der Nähe deines Turms ist,
+  wird dein Team benachrichtigt
 cookies.upgrade.alarm.level.2.name: Wächter II
 cookies.upgrade.alarm.level.2.description: |
-  Wenn ein Gegner in der Nähe deines Turms ist, fängt
-  dieser an zu leuchten.
+  Wenn ein Gegner in der Nähe deines Turms ist,
+  fängt dieser an zu leuchten
 cookies.upgrade.spy.level.1.name: Spion
-cookies.upgrade.spy.level.1.description: |
-  Dein Team kann die gegnerischen Türme immer
-  im Blick behalten.
+cookies.upgrade.spy.level.1.description: Du sieht, wie groß die Türme der anderen Teams sind
   
 # Base Upgrades
 cookies.upgrade.slowness.level.1.name: Langsamkeit (Gegner)
@@ -183,13 +189,13 @@ cookies.upgrade.simple_deposit.level.1.description: |
   
 # Ultimate Upgrades
 cookies.ultimate.building_speed.name: Ultimative Geschwindigkeit
-cookies.ultimate.building_speed.description: Otto baut 50% schneller.
+cookies.ultimate.building_speed.description: Otto baut <strikethrough>40%</strikethrough> 50% schneller
 cookies.ultimate.movement_speed.name: Ultimative Schnelligkeit
-cookies.ultimate.movement_speed.description: Erhalte <lang:effect.minecraft.speed> III.
+cookies.ultimate.movement_speed.description: Erhalte <lang:effect.minecraft.speed> III
 cookies.ultimate.quick_spawn.name: Ultimatives Quick Spawn
-cookies.ultimate.quick_spawn.description: Die Maschinen produzieren 35% schneller.
+cookies.ultimate.quick_spawn.description: Deine Maschinen produzieren <strikethrough>30%</strikethrough> 35% schneller
 cookies.ultimate.resistance.name: Ultimative Resistenz
-cookies.ultimate.resistance.description: Ottos Blöcke werden steinhart.
+cookies.ultimate.resistance.description: Ottos Blöcke werden extrem hart
 
 # Special Items
 cookies.item.tower.name: Pop-Up-Turm
@@ -214,15 +220,17 @@ cookies.item.mine.name: Mine
 cookies.item.cookie_breaker.name: Cookie Breaker
 cookies.item.golden_axe.name: <lang:item.minecraft.golden_axe>
 cookies.item.teleporter.name: Teleporter
-cookies.item.trap.name: Falle
 
 # Todos
-cookies.todos: Aufgaben
-cookies.todo.in_the_middle: In die Mitte
-cookies.todo.marathon_runner: Marathonläufer
-cookies.todo.business: Business
-cookies.todo.killer: Killer
-cookies.todo.Cookie_Placer: Cookie Placer
-cookies.todo.place_a_maschine: Plaziere eine Maschine
-cookies.todo.buy_an_upgrade: Kaufe ein Upgrade
-cookies.todo.start_building: Fang an zu bauen
+cookies.task: 'Aufgabe: ${tr.cookies.task.${0}} (${1}/${2})'
+cookies.task_assigned: '<gray>Neue Aufgabe: <yellow>${tr.cookies.task.${0}}</yellow> (Belohnung: +${3} Kekse)</gray>'
+cookies.task_completed: '<gray>Aufgabe erfüllt: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Belohnung: <gold>+${3} Kekse</gold></gray>'
+cookies.team_task_completed: '<gray>Aufgabe erfüllt: <yellow>${tr.cookies.task.${0}}</yellow> (${1}/${2})<newline>Belohnung: <gold>+${3} Kekse</gold> für dein Team</gray>'
+cookies.task.cookie_farmer: Zerstöre den Goldblock in der Mitte
+cookies.task.business: Sichere deine Kekse beim Bänker in deinem Teamkonto
+cookies.task.pay_tower: Bezahle Otto, dass er deinen Keksturm baut
+cookies.task.cookie_placer: Platziere Keksblöcke
+cookies.task.buy_upgrade: Kaufe ein Upgrade
+cookies.task.buy_machine: Kaufe eine Maschine
+cookies.task.kill_player: Töte einen Spieler
+cookies.task.cookie_breaker: Zerstöre Keksblöcke
